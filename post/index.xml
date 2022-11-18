@@ -3,7 +3,7 @@
 &lt;link rel="stylesheet" href="https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/css/hugo-easy-gallery.css" />
 &lt;div class="box" >
 &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-&lt;div class="img" style="background-image: url('https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/hexagon-thumb.jpg');">
+&lt;div class="img" style="background-image: url('https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage//img/hexagon-thumb.jpg');">
 &lt;img itemprop="thumbnail" src="https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/hexagon-thumb.jpg" alt="/img/hexagon-thumb.jpg"/>
 &lt;/div>
 &lt;a href="https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/hexagon.jpg" itemprop="contentUrl">&lt;/a>
@@ -11,7 +11,7 @@
 &lt;/div>
 &lt;div class="box" >
 &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-&lt;div class="img" style="background-image: url('https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/sphere-thumb.jpg');">
+&lt;div class="img" style="background-image: url('https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage//img/sphere-thumb.jpg');">
 &lt;img itemprop="thumbnail" src="https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/sphere-thumb.jpg" alt="Sphere"/>
 &lt;/div>
 &lt;a href="https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/sphere.jpg" itemprop="contentUrl">&lt;/a>
@@ -22,7 +22,7 @@
 &lt;/div>
 &lt;div class="box" >
 &lt;figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-&lt;div class="img" style="background-image: url('https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/triangle-thumb.jpg');">
+&lt;div class="img" style="background-image: url('https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage//img/triangle-thumb.jpg');">
 &lt;img itemprop="thumbnail" src="https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/triangle-thumb.jpg" alt="This is a long comment about a triangle"/>
 &lt;/div>
 &lt;a href="https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/img/triangle.jpg" itemprop="contentUrl">&lt;/a>
