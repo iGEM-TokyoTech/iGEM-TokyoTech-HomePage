@@ -1,4 +1,4 @@
-baseurl = "https://igem-tokyotech-homepage.github.io"
+baseurl = "https://igem-tokyotech.github.io"
 DefaultContentLanguage = "en"
 title = "Beautiful Hugo"
 theme = "beautifulhugo"
