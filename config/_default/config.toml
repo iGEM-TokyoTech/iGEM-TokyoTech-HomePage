@@ -1,4 +1,4 @@
-baseurl = "https://igem-tokyotech.github.io/"
+baseurl = "https://igem-tokyotech.github.io/iGEM-TokyoTech-HomePage/"
 defaultContentLanguage = "en"
 title = "iT2Home"
 theme = "beautifulhugo"
