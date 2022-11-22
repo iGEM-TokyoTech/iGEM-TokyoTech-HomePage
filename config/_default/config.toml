@@ -1,5 +1,5 @@
 baseurl = "https://igem-tokyotech.github.io/"
-DefaultContentLanguage = "en"
+defaultContentLanguage = "en"
 title = "iT2Home"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
