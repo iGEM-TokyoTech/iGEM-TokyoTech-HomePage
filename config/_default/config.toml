@@ -1,4 +1,4 @@
-baseurl = "http://www.igemtokyotech.org"
+baseurl = "https://www.igemtokyotech.org"
 defaultContentLanguage = "ja"
 title = "iT2Home"
 theme = "beautifulhugo"
