@@ -7,7 +7,12 @@
             {{.}}
           </div>
         {{ end }}
-
+        <hr>
+        <h3>{{ i18n "latestPost" }}</h3>
+        {{ if .Paginator.Pages }}
+          {{ $latest := index .Paginator.Pages 0 }}
+          {{ partial "post_preview.html" $latest }}
+        {{ end }}
         {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           <ul class="pager main-pager">
             {{ if .Paginator.HasPrev }}
