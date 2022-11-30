@@ -1,0 +1,6 @@
+defaultAuthor = "管理人"
+
+[authors]
+    [authors.ike]
+        name = "ike"
+        bio  = "しがない人"
