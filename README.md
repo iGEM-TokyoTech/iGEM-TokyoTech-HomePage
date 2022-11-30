@@ -1,14 +1,6 @@
-# iGEM TokyoTech's Home Page!
 
-# site structure
-```
-/  - _index
-  |
-  |- blog(dir) - _index
-  |- about(dir)
-  |- projects(dir)
-  |- team(dir)
-  |- finace(dir)
-```
 
-/ja
+## 投稿方法
+/content/ja/post
+ディレクトリ以下に
+yyyy-mm-dd-title.mdでmdファイルをおいてプッシュする
