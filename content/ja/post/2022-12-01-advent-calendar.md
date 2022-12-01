@@ -1,6 +1,6 @@
 ---
 title : iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022はっじまるよ~
-date : 2022-12-1
+date : 2022-12-01
 author : tax_free
 ---
 
@@ -12,6 +12,7 @@ iGEM Japan Communityを盛り上げて，日本でもっとiGEMが広がって�
 
 ぜひ楽しく書いて，読んで交流していただけたらと思っています．
 
+<!--more-->
 
 # iGEMとは
 [iGEM](https://igem.org/)は，The International Genetically Engineered Machine competitionの略で合成生物学の大会です．
