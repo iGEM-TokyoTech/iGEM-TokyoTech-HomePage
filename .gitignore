@@ -1,13 +1,50 @@
-# Generated files by hugo
-/public/
-/resources/_gen/
-/assets/jsconfig.json
-hugo_stats.json
+# Themes directory of example site; ignored so that we can clone the repo
+# inside the themes directory and test the example site with "hugo server".
+exampleSite/themes/
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Temporary lock file while building
-/.hugo_build.lock
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Vim swap files
+*.swp
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
