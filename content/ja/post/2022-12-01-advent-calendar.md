@@ -40,6 +40,7 @@ iGEM2022に参加した日本チームは以下の7チームです．
 - IUHW
 - Kyoto
 - Ninjas
+- Tokyo Agri
 - TOYAKU
 - Tsukuba
 - TUAT
@@ -75,8 +76,11 @@ iGEM2022に参加した日本チームは以下の7チームです．
 ### [KyotoのTwitter](https://twitter.com/iGEMkyoto)
 > We are iGEM Kyoto team!! iGEM Kyotoは合成生物学の大会iGEMに向けて活動する京大チームです。 2021年度の大会で作成したWiki(Webサイト) ☞ https://2021.igem.org/Team:Kyoto / ホームページもご覧ください↓
 
-### [KyotoのTwitter](https://twitter.com/iGEM_Ninjas)
+### [NinjasのTwitter](https://twitter.com/iGEM_Ninjas)
 > 合成生物学の世界大会iGEMの2023年出場に向けて活動している高校生チーム🧫🧪個性豊かなメンバーが日本全国から集まっています！追加メンバー募集中！ご連絡はdmまたはメールまで📧
+
+### [Tokyo AgriのTwitter](https://twitter.com/iGEMTokyoAgri)
+>東京農業大学初のiGEMチームです。2023年度のiGEMに向けて活動しています。興味ある方は、気軽にご連絡ください。We are the iGEM team from Tokyo University of Agriculture.We are working towards iGEM in 2023.
 
 ### [TOYAKUのTwitter](https://twitter.com/iGEMToyaku)
 > 東京薬科大学のiGEMチームです！iGEMとは合成生物学の世界大会です🌍学部、学年に関わらずメンバー募集中！！毎週火曜日18:00から定期ミーティングを行っています🙌詳しくはホームページをご覧下さい。https://igemtoyaku.wixsite.com/igem-toyaku
