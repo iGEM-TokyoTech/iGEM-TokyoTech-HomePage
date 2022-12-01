@@ -75,7 +75,7 @@ iGEM2022に参加した日本チームは以下の7チームです．
 ### [KyotoのTwitter](https://twitter.com/iGEMkyoto)
 > We are iGEM Kyoto team!! iGEM Kyotoは合成生物学の大会iGEMに向けて活動する京大チームです。 2021年度の大会で作成したWiki(Webサイト) ☞ https://2021.igem.org/Team:Kyoto / ホームページもご覧ください↓
 
-### [KyotoのTwitter](https://twitter.com/iGEM_Ninjas)
+### [NinjasのTwitter](https://twitter.com/iGEM_Ninjas)
 > 合成生物学の世界大会iGEMの2023年出場に向けて活動している高校生チーム🧫🧪個性豊かなメンバーが日本全国から集まっています！追加メンバー募集中！ご連絡はdmまたはメールまで📧
 
 ### [TOYAKUのTwitter](https://twitter.com/iGEMToyaku)
