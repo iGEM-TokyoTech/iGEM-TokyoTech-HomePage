@@ -23,7 +23,7 @@ iGEM Japan Communityを盛り上げて，日本でもっとiGEMが広がって�
 
 
 # iGEMに出ている日本チーム
-iGEM2022に参加した日本チームは以下の7チームです．
+iGEM2022に参加した日本チームは以下の6チームです．
 
 - ASIJ_Tokyo
 - KAIT_JAPAN
