@@ -4,6 +4,8 @@ date : 2022-12-03
 author : eno
 ---
 
+この投稿は，[iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022](https://adventar.org/calendars/7510)の3日目です．
+
 
 こんにちは、はじめまして。TokyoTechのenoです。2022は主にWet担当として活動をしていました。2023は少し後方からチームを見渡していく予定です。
 TokyoTechの他に、東京工業大学管弦楽団に所属しており、楽しそうな団員を見てにこにこしているのが日課です。これは定位置が舞台の端であることも関係していそうですね。
