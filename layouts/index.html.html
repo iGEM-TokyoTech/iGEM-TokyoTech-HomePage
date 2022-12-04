@@ -13,7 +13,7 @@
           {{ $latest := index .Paginator.Pages 0 }}
           {{ partial "post_preview.html" $latest }}
         {{ end }}
-        {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+        <!--{{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
           <ul class="pager main-pager">
             {{ if .Paginator.HasPrev }}
               <li class="previous">
@@ -26,7 +26,7 @@
               </li>
             {{ end }}
           </ul>
-        {{ end }}
+        {{ end }}-->
       </div>
     </div>
   </div>
