@@ -5,8 +5,11 @@
     {{ if ne $datestr $lastmodstr }}
       &nbsp;{{ $lastmodstr | i18n "lastModified"  }}
     {{ end }}
-    {{ if .Site.Params.readingTime }}
+    <!--{{ if .Site.Params.readingTime }}
       &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ .ReadingTime }}&nbsp;{{ i18n "readTime" }}
+    {{ end }}-->
+    {{ with .Params.reading_time }}
+      &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;{{ i18n "readingTime"}}{{ . }}&nbsp;{{ i18n "readTime" }}
     {{ end }}
     <!--{{ if .Site.Params.wordCount }}
       &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;{{ .WordCount }}&nbsp;{{ i18n "words" }}
