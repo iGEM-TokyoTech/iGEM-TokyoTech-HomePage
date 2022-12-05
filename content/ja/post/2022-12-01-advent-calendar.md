@@ -7,7 +7,7 @@ author : tax_free
 この投稿は，[iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022](https://adventar.org/calendars/7510)の1日目です．
 
 # はじめに
-こんにちは．iGEM TokyoTech Dryのtax_freeです．
+こんにちは．iGEM TokyoTech Dryの[tax_free](https://twitter.com/taxfree_python)です．
 iGEM Japan Communityを盛り上げて，日本でもっとiGEMが広がってほしいという気持ちから，複数の日本チームでAdvent Calendarを書くことになりました．
 
 ぜひ楽しく書いて，読んで交流していただけたらと思っています．
