@@ -8,7 +8,7 @@ author : tax_free
 
 
 # はじめに
-こんばんは．iGEM TokyoTechのtax_freeです．この記事では，iGEM 2022でTokyoTechのDryがやったことを紹介します．
+こんばんは．iGEM TokyoTechの[tax_free](https://twitter.com/taxfree_python)です．この記事では，iGEM 2022でTokyoTechのDryがやったことを紹介します．
 DryのなかでもWikiの実装については，11日担当のiChemyが担当してくれたので，この記事ではModelingのパートを扱います．
 この記事は[wiki](https://2022.igem.wiki/tokyotech/model)を見ながら書いています．
 
