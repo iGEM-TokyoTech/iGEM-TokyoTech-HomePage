@@ -23,6 +23,7 @@ author : ばみや
 <br>
 ♫マジカルiGEM♫
 <br><br>
+<br>
 ♫iGEMといったら合成生物学♫
 <br><br>
 <br>
