@@ -21,7 +21,7 @@ author : ばみや
 
 ただ、ここはiGEM Japan CommunityのAdvent Calendar。普通に遊び始めたらもうなんでもありになってしまうので、題材はiGEMだったり、せめて生物学からは逸脱しない範囲の記述を心がけようと思いました。
 
-そこで、マジカルバナナでなくマジカル”iGEM”でやりましょうか。そうすればiGEM Japan Communityにふさわしい投稿になってくれることと思います。解決解決(もうしばらくお付き合いください)。
+そこで、マジカルバナナでなくマジカル"iGEM"でやりましょうか。そうすればiGEM Japan Communityにふさわしい投稿になってくれることと思います。解決解決(もうしばらくお付き合いください)。
 
 ではいきましょうか。皆様も是非手拍子をしながら続きを予想してください。
 
@@ -44,7 +44,7 @@ author : ばみや
 ♫骨といったら♫
 <br><br>
 
-{{< figure src="/img/post/221207_01" width="500px" caption-position="bottom" caption-effect="fade">}}
+{{< figure src="/img/post/221207_01.jpg" width="500px" caption-position="bottom" caption-effect="fade">}}
 <br><br>
 
 そうですね、**骨格標本作り**ですね。皆様も同じ結果になったかなと思います(もうしばらくお付き合いください)。
@@ -54,7 +54,7 @@ author : ばみや
 このイカした趣味は自発的なものではなく、弊チームの某メンバーに誘われたのを皮切りに乗り気なメンバー数人を巻き込んで始まりました。これが中々楽しいんですよ。骨って造形的にも綺麗ですし、なにより**作ってる最中に愛着が湧いてくる**んですね。皆様のお気に入りの部位は何でしょうか。私は**脛と肩甲骨と足首**です。
 
 
-{{< figure src="/img/post/221207_02" title="" caption="(様子を見せるのは気が引けるためイメージ図)" width="500px" caption-position="bottom" caption-effect="fade">}}
+{{< figure src="/img/post/221207_02.png" title="" caption="(様子を見せるのは気が引けるためイメージ図)" width="500px" caption-position="bottom" caption-effect="fade">}}
 <div style="text-align: center;">
 (様子を見せるのは気が引けるためイメージ図)
 </div>
