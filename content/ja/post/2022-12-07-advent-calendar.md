@@ -27,25 +27,25 @@ author : ばみや
 
 
 ♫マジカルiGEM♫
-<br>
+<br><br>
 
 ♫iGEMといったら合成生物学♫
-<br>
+<br><br>
 
 ♫合成生物学といったら生物学(包含関係)♫
-<br>
+<br><br>
 
 ♫生物学といったら生き物(？)♫
-<br>
+<br><br>
 
 ♫生き物といったら骨(部分集合)♫
-<br>
+<br><br>
 
 ♫骨といったら♫
-<br>
+<br><br>
 
 {{< figure src="/img/post/221207_01" width="500px" caption-position="bottom" caption-effect="fade">}}
-<br>
+<br><br>
 
 そうですね、**骨格標本作り**ですね。皆様も同じ結果になったかなと思います(もうしばらくお付き合いください)。
 
