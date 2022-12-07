@@ -31,7 +31,12 @@
   <title>{{ . }} - {{ $.Site.Title }}</title>
 {{- end }}
 {{- with ($.Scratch.Get "Description") }}
-  <meta name="description" content="{{ . }}">
+  {{ if gt (len (. | plainify)) 120 }}
+    {{ $summary := substr (. | plainify) 0 120 }}
+    <meta name="description" content="{{ $summary }}">
+  {{ else }}
+    <meta name="description" content="{{ . }}">
+  {{ end }}
 {{- end }}
 {{- with .Site.Author.name }}
   <meta name="author" content="{{ . }}"/>
