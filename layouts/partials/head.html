@@ -62,8 +62,6 @@
 
   <link rel="stylesheet" href="{{ "css/main.css" | absURL }}" />
 
-  <link  rel="stylesheet" href="{{ "css/bootstrap-grid.min.css" | absURL }}"/>
-
   {{- if .Site.Params.staticman -}}
   <link rel="stylesheet" href="{{ "css/staticman.css" | absURL }}" />
   {{- end -}}
@@ -98,3 +96,6 @@
 {{- if not .Site.IsServer -}}
   {{ template "_internal/google_analytics.html" . }}
 {{- end -}}
+
+<link  rel="stylesheet" href="{{ "css/bootstrap-grid.min.css" | absURL }}" />
+<link  rel="stylesheet" href="{{ "css/modify.css" | absURL }}" />
