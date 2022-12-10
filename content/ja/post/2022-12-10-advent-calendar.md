@@ -1,5 +1,5 @@
 ---
-title :
+title : ある男について
 date : 2022-12-10
 author : マリルリ
 ---
