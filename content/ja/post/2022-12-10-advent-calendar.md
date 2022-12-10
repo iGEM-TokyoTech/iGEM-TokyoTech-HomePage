@@ -16,7 +16,7 @@ iGEM Tokyo Techのマリルリです。今回のｱﾄﾞﾍﾞﾝﾄｶﾚﾝ�
 そのため、2年生がメインで活動する事になりました。Wet2人、Dry2人、HP2人…というような人の割り振りになり2年生がそこに配属される事となりました。
 その中で私は「やる人がいないならまぁ、俺がやっていいよ」みたいな消極的な理由でHPを選びました。そこで、もう1人のHPとなったのが今回ご紹介する「ある男」ことB君です。
 
-{{< figure src=“/img/post/221210_01.jpg” caption=“18禁カレーを食べるB君。辛いから食べられないと彼に渡したら、食べてくれた。” width=“500px” caption-position=“bottom” caption-effect=“fade”>}}
+{{<figure src=“/img/post/221210_01.jpg” caption=“18禁カレーを食べるB君。辛いから食べられないと彼に渡したら、食べてくれた。” width=“500px” caption-position=“bottom” caption-effect=“fade”>}}
 <br><br>
 
 # ある男の、性格
@@ -34,7 +34,7 @@ B君には、初対面の人対するお決まりの挨拶があってそれは�
  今思い返すと僕のB君への「まぁ、言わなくても分かるだろ」みたいな良くない信頼のせいでそれが起こっていたなという反省があります。
  B君、ごめんね。
  
- {{< figure src=“/img/post/221210_02.jpg” caption=“地獄のWiki書き後の謎のゲーム時間。チームリーダーに「マリルリ君ってそんなに大きな声出るんだ」と言われました。” width=“500px” caption-position=“bottom” caption-effect=“fade”>}}
+ {{<figure src=“/img/post/221210_02.jpg” caption=“地獄のWiki書き後の謎のゲーム時間。チームリーダーに「マリルリ君ってそんなに大きな声出るんだ」と言われました。” width=“500px” caption-position=“bottom” caption-effect=“fade”>}}
 <br><br>
  
 # マリルリの、抱負
