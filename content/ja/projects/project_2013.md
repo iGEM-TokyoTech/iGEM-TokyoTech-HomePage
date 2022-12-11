@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2013
+---
 # 2013 Mutant Ninja coli
 
 ## 概要

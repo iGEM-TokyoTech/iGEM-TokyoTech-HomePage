@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2008
+---
 # 2008 Coli Touch
 
 ## 概要

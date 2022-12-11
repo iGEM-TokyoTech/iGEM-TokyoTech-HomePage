@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2014
+---
 # 2014 Bank E.coli
 
 ## 概要

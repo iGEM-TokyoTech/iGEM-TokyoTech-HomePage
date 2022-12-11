@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2009
+---
 # 2009 
 
 ## 概要

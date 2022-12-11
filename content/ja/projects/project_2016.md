@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2016
+---
 # 2016 SNOW WHITE
 
 ## 概要

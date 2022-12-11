@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2015
+---
 # PRISONER'S DILEMMA
 
 ## 概要
