@@ -1,7 +1,7 @@
 ---
 title: Dengnosis
 content: coming soon!
-medal: silver
+medal: gold
 year: 2014
 ---
 # 2014 Bank E.coli

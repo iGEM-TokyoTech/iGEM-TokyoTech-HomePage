@@ -1,7 +1,7 @@
 ---
 title: Dengnosis
 content: coming soon!
-medal: silver
+medal: bronze
 year: 2018
 ---
 # 2018 Finding Flavi!
