@@ -10,7 +10,7 @@
                     <img src="{{ $src }}" alt="{{ .Params.medal }}" height="30px"/>
                 </div>
                 <div class="col-10 d-flex">
-                    <h2>{{ .Params.year }}:{{ .Params.title }}</h2>
+                    <h2>{{ .Params.year }}:{{ .Params.title | safeHTML }}</h2>
                 </div>
             </div>
 
