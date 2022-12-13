@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2010
+---
 # 2010 E.coli with "Humanity"
 
 ## 概要

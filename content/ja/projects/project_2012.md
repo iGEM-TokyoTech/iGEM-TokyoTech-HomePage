@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2012
+---
 # 2012 "Romeo and Juliet" by E.coli cell-cell communication.
 
 ## 概要

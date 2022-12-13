@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2020
+---
 # 2019 E-Turing
 
 ## 概要

@@ -2,3 +2,25 @@
 p {
   text-indent: 1rem;
 }
+/* 段落のインデント用 */
+
+/* project_preview用 */
+.project-card__detail {
+  min-height: 40px;
+  gap: 10px;
+}
+.project-card-medal {
+  padding-top: 20px;
+}
+.project-card-thumbnail {
+  display: flex;
+  justify-content: center;
+}
+
+/* project_preview用 */
+
+/* 文字が見にくいと思ったので行間の調節 */
+p {
+  line-height: 1.75;
+}
+/* 文字が見にくいと思ったので行間の調節 */

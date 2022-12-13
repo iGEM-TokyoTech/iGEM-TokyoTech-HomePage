@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2017
+---
 # 2017 Colisapience
 
 ## 概要

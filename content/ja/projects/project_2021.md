@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2021
+---
 # 2021 Lacteeth
 
 ## 概要

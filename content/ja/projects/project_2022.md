@@ -1,3 +1,9 @@
+---
+title: Dengnosis
+content: coming soon!
+medal: silver
+year: 2022
+---
 # 2022 Dengnosis
 
 ## 概要
