@@ -1,5 +1,5 @@
 ---
-title: Dengnosis
+title: Lacteeth
 content: coming soon!
 medal: silver
 year: 2021
