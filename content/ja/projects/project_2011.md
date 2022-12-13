@@ -1,10 +1,10 @@
 ---
-title: Dengnosis
+title: Unknown
 content: coming soon!
 medal: silver
 year: 2011
 ---
-# 2011
+# 2011 Unknown
 
 ## 概要
 

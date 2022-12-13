@@ -1,5 +1,5 @@
 ---
-title: Dengnosis
+title: PRISONER'S DILEMMA
 content: coming soon!
 medal: silver
 year: 2015

@@ -1,5 +1,5 @@
 ---
-title: Dengnosis
+title: SNOW WHITE
 content: coming soon!
 medal: silver
 year: 2016

@@ -1,5 +1,5 @@
 ---
-title: Dengnosis
+title: E-Turing
 content: coming soon!
 medal: silver
 year: 2020

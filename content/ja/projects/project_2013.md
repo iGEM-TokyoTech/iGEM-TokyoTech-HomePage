@@ -1,5 +1,5 @@
 ---
-title: Dengnosis
+title: Mutant Ninja coli
 content: coming soon!
 medal: silver
 year: 2013

@@ -1,5 +1,5 @@
 ---
-title: Dengnosis
+title: E.coli with "Humanity"
 content: coming soon!
 medal: silver
 year: 2010

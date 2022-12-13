@@ -1,5 +1,5 @@
 ---
-title: Dengnosis
+title: Colisapience
 content: coming soon!
 medal: silver
 year: 2017
