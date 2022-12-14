@@ -1,7 +1,7 @@
 ---
 title: Dengnosis
 content: coming soon!
-medal: silver
+medal: gold
 year: 2022
 ---
 # 2022 Dengnosis
