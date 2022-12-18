@@ -24,3 +24,13 @@ p {
   line-height: 1.75;
 }
 /* 文字が見にくいと思ったので行間の調節 */
+
+/* ホームの最新のツイート枠 */
+.rounded-5 {
+  border-radius: 1.3rem !important;
+}
+
+.border-thirdry {
+  border-color: #9c9c9c !important;
+}
+/* ホームの最新のツイート枠 */
