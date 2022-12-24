@@ -1,2 +1,2 @@
 # 私たちの紹介
-coming soon!!
+please wait for release
