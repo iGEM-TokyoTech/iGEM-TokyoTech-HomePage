@@ -7,7 +7,7 @@ author : tax_free
 この投稿は，[iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022](https://adventar.org/calendars/7510)の25日目です．
 
 # はじめに
-メリークリスマス，私はいろいろあって沖縄に来てます．
+メリークリスマス，私，tax_freeはいろいろあって沖縄に来てます．
 
 今日は高校生の時によく行ってたトンカツを食べに行きました．なつかしいね．
 
