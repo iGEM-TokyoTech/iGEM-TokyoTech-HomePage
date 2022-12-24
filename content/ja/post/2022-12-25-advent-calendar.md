@@ -193,7 +193,7 @@ show(plot)
 
 
 # 参考にしたページ
-[1] [IWBDA](https://www.iwbdaconf.org/2022/program/)
-[2] [Colab](http://tiny.cc/iwbda-biocrnpyler)
-[3] [グラフが表示されない](https://github.com/pyg-team/pytorch_geometric/issues/4378)
+[1] [IWBDA](https://www.iwbdaconf.org/2022/program/)  
+[2] [Colab](http://tiny.cc/iwbda-biocrnpyler)  
+[3] [グラフが表示されない](https://github.com/pyg-team/pytorch_geometric/issues/4378)  
 [4] [ColabのScipyが古い](https://stackoverflow.com/questions/71983103/cannot-upgrade-library-to-specific-version-on-google-colab-scipy-version-1-8-0)
