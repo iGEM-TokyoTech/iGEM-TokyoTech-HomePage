@@ -10,6 +10,7 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
+buildFuture=true
 
 hasCJKLanguage = true
 summaryLength = 140
