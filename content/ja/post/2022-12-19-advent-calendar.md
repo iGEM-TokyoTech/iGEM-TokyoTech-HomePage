@@ -4,6 +4,8 @@ date : 2022-12-19
 author : Leoken
 ---
 
+この投稿は，[iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022](https://adventar.org/calendars/7510)の19日目です．
+
 こんにちは、iGEM TokyoTech のLeokenです。Advent Calendartの概念も知らなければ、blogも書いたことないような僕ですが、頑張って書き切っていきたいなと思います。
 
 ## 自己紹介
