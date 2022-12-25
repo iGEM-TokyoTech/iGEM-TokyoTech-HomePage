@@ -1,5 +1,5 @@
 ---
-title : Modelingの自動化とクロージング
+title : Modelingの自動化とAdvent Calendar 2022のクロージング
 date : 2022-12-25
 author : tax_free
 ---
@@ -18,8 +18,8 @@ author : tax_free
 [24日の投稿](https://note.com/downer_angel/n/n11e2da3fd9b5)のクオリティが高かったのでプレッシャーが...
 
 # 突然ですが，モデリングしてますか?
-2022のTokyoTechは，Dryだけでデング熱の血清型ごとの感染者割合を予測するシステムを作っていたので，Wetの系に関するモデリングはしていませんでした[1]．
-他のiGEMチームを見てみると，みんなWetと協力して生成物の構造予測や量の予測をしています．
+2022のTokyoTechは，Dryだけでデング熱の血清型ごとの感染者割合を予測するシステムを作っていたので，Wetの系に関するモデリングはしていませんでした．
+が，他のiGEMチームを見てみると，みんなWetと協力して生成物の構造予測や量の予測をしています．
 
 そして，モデリングはGold要件です．
 
@@ -28,8 +28,8 @@ author : tax_free
 十分な数を見ているわけではないですが，ほとんどのチームが一般のODEソルバーを使うか，特別なライブラリを使うのではなく普通にPythonとかを使っていると思います．
 数は少ないですが，[AlphaFoldを使ってるチーム](https://2022.igem.wiki/iiser-pune2-india/struct-predictions)もありました．
 
-こうやって実装することの問題点として，Dryの人しか実装できなかったり，他のメンバーと結果の共有がしずらいということがあります．
-これらの課題を少しでも解決するために，Python向けのモデリング補助ライブラリについて~~解説~~説明します．
+これらで実装することの問題点として，Dryの人しか実装できなかったり，他のメンバーと結果の共有がしずらいということがあります．
+この記事では，これらの課題を少しでも解決するために，Python向けのモデリング補助ライブラリについて~~解説~~説明します．
 
 
 # 使うライブラリと具体的な問題例
@@ -58,7 +58,7 @@ BioCRNpylerの構造は次のようになっています．
 
 {{< figure src="/img/post/221225_02.png" caption="サンプルの図" width="300px" caption-position="bottom" caption-effect="fade">}}
 
-これをBioCRNpyleで実装します．必要なライブラリは，既に定義しているとします．[ソースコード](https://github.com/taxfree-python/IWBDA_demo)を参考にしてください．
+これをBioCRNpylerで実装します．必要なライブラリは，既に定義しているとします．[ソースコード](https://github.com/taxfree-python/IWBDA_demo)を参考にしてください．
 
 まずは，それぞれの文字を定義します．
 
@@ -181,7 +181,7 @@ show(plot)
 # これから
 今回は非常に簡単なモデルだったので，BioCRNpylerがラップしてくれる嬉しさ，グラフにしてくれる嬉しさが十分に感じれないかもしれないですが，より複雑なモデルを扱う時には，きっと役にたつはずです．
 
-参考にしたサンプルには，この後にMichaelis–Menten equationに従うようなモデルを考えていましたが，コピペしてもエラーが出てくるので今回の記事には間に合いませんでした．Michaelis–Menten equationの次は，パラメータのAutoReduceをやってくれるサンプルなので，BioCRNpyleはモデルの最適化の方にも使えそうです．次の記事では，これを触ってみようかなぁ...
+参考にしたサンプルには，この後にMichaelis–Menten equationに従うようなモデルを考えていましたが，コピペしてもエラーが出てくるので今回の記事には間に合いませんでした．Michaelis–Menten equationの次は，パラメータのAutoReduceをやってくれるサンプルなので，BioCRNpylerはモデルの最適化の方にも使えそうです．次の記事では，これを触ってみようかなぁ...
 
 
 # おわりに
@@ -193,6 +193,7 @@ show(plot)
 
 
 # 参考にしたページ
+
 [1] [IWBDA](https://www.iwbdaconf.org/2022/program/)  
 [2] [Colab](http://tiny.cc/iwbda-biocrnpyler)  
 [3] [グラフが表示されない](https://github.com/pyg-team/pytorch_geometric/issues/4378)  
