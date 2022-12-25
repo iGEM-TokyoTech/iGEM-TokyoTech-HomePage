@@ -1,5 +1,5 @@
 ---
-title : Modelingの自動化とAdvent Calendar 2022のクロージング
+title : Modeling補助ライブラリの紹介とAdvent Calendar 2022のクロージング
 date : 2022-12-25
 author : tax_free
 ---
