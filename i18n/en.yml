@@ -76,3 +76,6 @@
 # オリジナル
 - id: latestPost
   translation: "latest post"
+
+- id: latestTweet
+  translation: "latest tweet"
