@@ -85,8 +85,8 @@ summaryLength = 140
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "about"
+    name = "Finance"
+    url = "finance"
     weight = 3
 
 #[[menu.main]]
