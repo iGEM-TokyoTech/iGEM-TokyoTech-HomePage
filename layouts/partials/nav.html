@@ -11,7 +11,7 @@
       </div>
   
       <div class="collapse navbar-collapse" id="main-navbar">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right nav-modifier">
           {{ range .Site.Menus.main.ByWeight }}
             {{ if .HasChildren }}
               <li class="navlinks-container">
@@ -45,7 +45,7 @@
               <li>
                 {{ range .Site.Languages }}
                   {{ if not (eq .Lang $.Site.Language.Lang) }}
-                    <a href="{{ $.Site.BaseURL }}/{{ .Lang }}" lang="{{ .Lang }}">{{ default .Lang .LanguageName }}</a>
+                    <a href="{{ $.Site.BaseURL }}/{{ .Lang }}" lang="{{ .Lang }}" >{{ default .Lang .LanguageName }}</a>
                   {{ end }}
                 {{ end }}
               </li>
