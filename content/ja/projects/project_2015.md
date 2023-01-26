@@ -1,7 +1,7 @@
 ---
 title: PRISONER'S DILEMMA
 content: coming soon!
-medal: silver
+medal: gold
 year: 2015
 ---
 # PRISONER'S DILEMMA
