@@ -1,7 +1,7 @@
 ---
 title:  '"Romeo and Juliet" by E.coli cell-cell communication.'
 content: coming soon!
-medal: silver
+medal: gold
 year: 2012
 ---
 # 2012 "Romeo and Juliet" by E.coli cell-cell communication.
