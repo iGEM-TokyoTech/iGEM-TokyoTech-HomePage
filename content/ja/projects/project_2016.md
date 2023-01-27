@@ -1,7 +1,7 @@
 ---
 title: SNOW WHITE
 content: coming soon!
-medal: silver
+medal: gold
 year: 2016
 ---
 # 2016 SNOW WHITE
