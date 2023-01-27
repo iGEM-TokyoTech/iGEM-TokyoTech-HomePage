@@ -1,7 +1,7 @@
 ---
 title: Unknown
 content: coming soon!
-medal: silver
+medal: gold
 year: 2007
 ---
 # 2007 Unknown
