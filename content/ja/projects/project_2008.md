@@ -1,7 +1,7 @@
 ---
 title: Coli Touch
 content: coming soon!
-medal: silver
+medal: gold
 year: 2008
 ---
 # 2008 Coli Touch
