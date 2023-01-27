@@ -2,7 +2,7 @@
 title: E-Turing
 content: coming soon!
 medal: silver
-year: 2020
+year: 2019
 ---
 # 2019 E-Turing
 
