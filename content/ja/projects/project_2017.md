@@ -1,7 +1,7 @@
 ---
 title: Colisapience
 content: coming soon!
-medal: silver
+medal: gold
 year: 2017
 ---
 # 2017 Colisapience

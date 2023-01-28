@@ -1,7 +1,7 @@
 ---
 title: Mutant Ninja coli
 content: coming soon!
-medal: silver
+medal: gold
 year: 2013
 ---
 # 2013 Mutant Ninja coli

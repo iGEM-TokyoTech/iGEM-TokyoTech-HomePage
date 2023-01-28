@@ -1,7 +1,7 @@
 ---
 title: E.coli with "Humanity"
 content: coming soon!
-medal: silver
+medal: gold
 year: 2010
 ---
 # 2010 E.coli with "Humanity"
