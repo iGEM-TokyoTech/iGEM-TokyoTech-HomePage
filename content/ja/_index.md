@@ -7,4 +7,4 @@
 
 そこで、皆様に寄付による支援をお願いしたく思います。寄付頂いたお金は、大会の参加費や研究のための実験費、大会に参加するための渡航費等に充てさせていただきます。使途の詳細は[こちら](https://www.igemtokyotech.org/finance/)
 
-皆様のご支援で、研究のバトンが次世代へと繋がります。ぜひご支援のほどよろしくお願いします。寄付は[こちら](https://fundexapp.jp/titech/exp/explanation.htm?purposeCode=500000&supportCode=500100)から，支援先 : iGEM Tokyo Tech（旧 Bio Wiz）でできます。
+皆様のご支援で、研究のバトンが次世代へと繋がります。ぜひご支援のほどよろしくお願いします。寄付は[こちら](https://fundexapp.jp/titech/exp/explanation.htm?purposeCode=500000&supportCode=504400)から，支援先 : iGEM Tokyo Tech（旧 Bio Wiz）でできます。
