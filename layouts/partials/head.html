@@ -1,3 +1,7 @@
+
+<link  rel="stylesheet" href="{{ "css/modify.css" | absURL }}" />
+<link  rel="stylesheet" href="{{ "css/bootstrap-utilities.min.css" | absURL }}" />
+
 {{- if eq .Kind "taxonomyTerm" }}
   {{- range $key, $value := .Data.Terms.ByCount }}
     {{- $.Scratch.Add "most_used" (slice $value.Name) }}
@@ -97,6 +101,3 @@
   {{ template "_internal/google_analytics.html" . }}
 {{- end -}}
 
-<link  rel="stylesheet" href="{{ "css/bootstrap-grid.min.css" | absURL }}" />
-<link  rel="stylesheet" href="{{ "css/modify.css" | absURL }}" />
-<link  rel="stylesheet" href="{{ "css/bootstrap-utilities.min.css" | absURL }}" />
