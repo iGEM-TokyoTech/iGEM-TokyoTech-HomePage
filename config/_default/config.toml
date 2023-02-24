@@ -84,10 +84,10 @@ summaryLength = 140
     url = "post"
     weight = 1
 
-[[menu.main]]
-    name = "Finance"
-    url = "finance"
-    weight = 3
+#[[menu.main]]
+#    name = "Finance"
+#    url = "finance"
+#    weight = 3
 
 #[[menu.main]]
 #    identifier = "samples"
