@@ -126,3 +126,7 @@ summaryLength = 140
     name = "Project"
     url = "projects"
     weight = 2
+[[menu.main]]
+    name = "about"
+    url = "about"
+    weight = 1
