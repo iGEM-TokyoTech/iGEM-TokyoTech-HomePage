@@ -52,3 +52,20 @@ p {
 .d-flex {
   display: flex !important;
 }
+
+/* refer post-preview */
+.member-preview {
+  border-bottom: 1px solid #eee;
+}
+.member-preview:last-child {
+  border-bottom: 0px;
+}
+
+.member-image {
+  max-width: none;
+}
+
+.member-comment {
+  padding-left: 2rem;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
