@@ -4,5 +4,11 @@
         "part":"Dry",
         "text":"Hello, iGEM!!",
         "image":"sample.png"
+    },
+    {
+        "name":"Higashi Tsubasa",
+        "part":"Human Practices",
+        "text":"I love iGEM!! Wiki Creater.",
+        "image":"sample.png"
     }
 ]
