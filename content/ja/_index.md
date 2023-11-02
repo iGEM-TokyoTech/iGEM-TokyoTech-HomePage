@@ -5,11 +5,10 @@
 
 <!-- そこで、皆様に寄付による支援をお願いしたく思います。寄付頂いたお金は、大会の参加費や研究のための実験費、大会に参加するための渡航費等に充てさせていただきます。使途の詳細は[こちら](https://www.igemtokyotech.org/finance/) -->
 
-{{< figure src="/img/post/_index_1.png" title="" caption="iGEM TokyoTech寄附のお願い(表)" width="500px" caption-position="bottom" caption-effect="fade">}}
+iGEM Tokyo Techは、合成生物学の世界大会iGEMに出場する東京工業大学のチームです。
 
-{{< figure src="/img/post/_index_2.png" title="" caption="(iGEM TokyoTech寄附のお願い(裏)" width="500px" caption-position="bottom" caption-effect="fade">}}
+2023年のWikiは、[こちら](https://2023.igem.wiki/tokyotech/)
 
+iGEM Tokyo Tech is the iGEM team of Tokyo Institute of Technology.
 
-皆様に寄付による支援をお願いしたく思います。寄付頂いたお金は、大会の参加費や研究のための実験費、大会に参加するための渡航費等に充てさせていただきます。使途の詳細は[こちら](https://www.igemtokyotech.org/finance/)
-
-皆様のご支援で、研究のバトンが次世代へと繋がります。ぜひご支援のほどよろしくお願いします。寄付は[こちら](https://fundexapp.jp/titech/exp/explanation.htm?purposeCode=500000&supportCode=504400)から，支援先 : iGEM Tokyo Tech（旧 Bio Wiz）でできます。
+2023 Wiki is [here](https://2023.igem.wiki/tokyotech/)
