@@ -30,7 +30,9 @@
 &lt;h1 id="はじめに">はじめに&lt;/h1>
 &lt;p>こんばんは．iGEM TokyoTechの&lt;a href="https://twitter.com/taxfree_python">tax_free&lt;/a>です．この記事では，iGEM 2022でTokyoTechのDryがやったことを紹介します．
 DryのなかでもWikiの実装については，11日担当のiChemyが担当してくれたので，この記事ではModelingのパートを扱います．
-この記事は&lt;a href="https://2022.igem.wiki/tokyotech/model">wiki&lt;/a>を見ながら書いています．&lt;/p></description></item><item><title>代替わりの折に振り返り</title><link>https://www.igemtokyotech.org/post/2022-12-03-advent-calendar/</link><pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.igemtokyotech.org/post/2022-12-03-advent-calendar/</guid><description>&lt;p>この投稿は，&lt;a href="https://adventar.org/calendars/7510">iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a>の3日目です．&lt;/p>
+この記事は&lt;a href="https://2022.igem.wiki/tokyotech/model">wiki&lt;/a>を見ながら書いています．&lt;/p></description></item><item><title>合成生物学といったら「俺」</title><link>https://www.igemtokyotech.org/post/2023-12-04-calendar/</link><pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.igemtokyotech.org/post/2023-12-04-calendar/</guid><description>&lt;p>どうも皆さん、一年ぶりですね。iGEM TokyoTechのばみやです。&lt;/p>
+&lt;p>最近めっきり冷えてきましたね。私は寒暖差があまり得意ではないので鼻水が止まりません。なんなら布団からも出られず、ラボのコアタイムをまあまあ無視してしまっています(現在間に合った率3%未満)。皆様もご自愛くださいませ。&lt;/p>
+&lt;p>時候の挨拶もほどほどに、本題に移りましょう。&lt;/p></description></item><item><title>代替わりの折に振り返り</title><link>https://www.igemtokyotech.org/post/2022-12-03-advent-calendar/</link><pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate><guid>https://www.igemtokyotech.org/post/2022-12-03-advent-calendar/</guid><description>&lt;p>この投稿は，&lt;a href="https://adventar.org/calendars/7510">iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a>の3日目です．&lt;/p>
 &lt;p>こんにちは、はじめまして。TokyoTechのenoです。2022は主にWet担当として活動をしていました。2023は少し後方からチームを見渡していく予定です。
 TokyoTechの他に、東京工業大学管弦楽団に所属しており、楽しそうな団員を見てにこにこしているのが日課です。これは定位置が舞台の端であることも関係していそうですね。&lt;/p>
 &lt;p>さて、「代替わりの折に振り返り」と銘打っている以上、何かを振り返らなくてはならないのですが、どうにも振り返って面白いものが思い浮かびませんでした。
