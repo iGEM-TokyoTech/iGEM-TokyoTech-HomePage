@@ -1,0 +1,34 @@
+---
+import { config } from "../utils/config";
+
+interface Props {
+    title?: string;
+    author?: string;
+    description?: string; 
+};
+
+const { title, author, description } = Astro.props;
+
+const pageTitle = title ? `${title} | ${config.site.site.name}` : config.site.site.name;
+const pageAuthor = author ? author : "iGEM TokyoTech";
+---
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    {config.site.site.favicon && <link rel="icon" href={config.site.site.favicon} />}
+    <title>{pageTitle}</title>
+    <meta name="author" content={pageAuthor} />
+    {
+    description 
+    && 
+    <meta 
+        name="description"
+        content={description} />
+    <meta
+        name="og:description"
+        content={description} />
+    }
+    <meta property="og:title" content={pageTitle} />
+</head>
+

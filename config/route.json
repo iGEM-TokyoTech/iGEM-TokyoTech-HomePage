@@ -1,0 +1,56 @@
+[
+  {
+    "label": "Home",
+    "href": "/"
+  },
+  {
+    "label": "The Projects",
+    "href": null,
+    "sub_items": [
+      {
+        "label": "Current Project",
+        "href": "/current-project"
+      },
+      {
+        "label": "All Projects",
+        "href": "/all-projects"
+      }
+    ]
+  },
+  {
+    "label": "The Teams",
+    "href": null,
+    "sub_items": [
+      {
+        "label": "Join iGEM",
+        "href": "/join-igem"
+      },
+      {
+        "label": "Current Team",
+        "href": "/current-team"
+      }
+    ]
+  },
+  {
+    "label": "Events",
+    "href": null,
+    "sub_items": [
+      {
+        "label": "Blog",
+        "href": "/blog"
+      },
+      {
+        "label": "Twitter(X)",
+        "href": "/twitter"
+      },
+      {
+        "label": "events",
+        "href": "/events"
+      }
+    ]
+  },
+  {
+    "label": "About iGEM",
+    "href": "/about-igem"
+  }
+]

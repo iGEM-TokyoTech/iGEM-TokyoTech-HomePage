@@ -1,0 +1,11 @@
+{
+  "brand": {
+    "name": "iGEM TokyoTech",
+    "twitter": "igem_tokyotech"
+  },
+  "site": {
+    "name": "iGEM TokyoTech",
+    "logo": "/logo.png",
+    "favicon": "/favicon.ico"
+  }
+}

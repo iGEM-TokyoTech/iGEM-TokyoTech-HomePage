@@ -1,0 +1,13 @@
+---
+import Head from "./Head.astro"
+import Header from "./Header"
+---
+<html lang="ja">
+    <Head />
+    <body>
+        <Header client:only/>
+        <article>
+            <slot /> <!-- ここにコンテンツが挿入されます -->
+        </article>
+    </body>
+</html>
