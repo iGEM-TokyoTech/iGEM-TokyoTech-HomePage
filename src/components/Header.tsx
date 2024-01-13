@@ -190,43 +190,6 @@ const Header = () => {
       ) : (
         <Navigation />
       )}
-      <head>
-        <meta
-          name="og:description"
-          content="ようこそ! iGEM Tokyo Techは、合成生物学の世界大会iGEMに出場する東京工業大学のチームです。 2023年のWikiは、こちら iGEM Tokyo Tech is the iGEM team of Tokyo Instit"
-        />
-        <meta
-          property="og:image"
-          content="https://www.igemtokyotech.org/img/old-it2-logo-trp.png"
-        />
-        <meta property="og:url" content="https://www.igemtokyotech.org/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="iGEM TokyoTech" />
-        <meta name="twitter:title" content="iGEM TokyoTech" />
-        <meta
-          name="twitter:description"
-          content="ようこそ! iGEM Tokyo Techは、合成生物学の世界大会iGEMに出場する東京工業大学のチームです。 2023年のWikiは、こちら iGEM Tokyo Tech is the iGEM team of Tokyo Institute of Technology. 2023 Wiki is here"
-        />
-        <meta
-          name="twitter:image"
-          content="https://www.igemtokyotech.org/img/old-it2-logo-trp.png"
-        />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@igem_tokyotech" />
-        <meta name="twitter:creator" content="@igem_tokyotech" />
-        <link
-          href="https://www.igemtokyotech.org/img/it2-favicon.ico"
-          rel="icon"
-          type="image/x-icon"
-        />
-        <meta name="generator" content="Hugo 0.121.1" />
-        <link
-          rel="alternate"
-          href="https://www.igemtokyotech.org/index.xml"
-          type="application/rss+xml"
-          title="iGEM TokyoTech"
-        />
-      </head>
     </header>
   );
 };

@@ -16,11 +16,10 @@ const pageAuthor = author ? author : "iGEM TokyoTech";
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    {config.site.site.favicon && <link rel="icon" href={config.site.site.favicon} />}
+    {config.site.site.favicon && <link rel="icon" href={config.site.site.favicon} type="image/x-icon" />}
     <title>{pageTitle}</title>
     <meta name="author" content={pageAuthor} />
-    {
-    description 
+    {description 
     && 
     <meta 
         name="description"
@@ -28,7 +27,33 @@ const pageAuthor = author ? author : "iGEM TokyoTech";
     <meta
         name="og:description"
         content={description} />
+    <meta
+        name="twitter:description"
+        content={description} />
     }
     <meta property="og:title" content={pageTitle} />
+    {config.site.site.logo 
+    &&
+    <meta
+        property="og:image"
+        content={config.site.site.logo}
+    />
+    <meta
+        name="twitter:image"
+        content={config.site.site.logo} />
+    }
+    {config.site.site.url
+    &&
+    <meta property="og:url" content={config.site.site.url + "/"} />
+    }
+    <meta property="og:type" content="website" />
+    {config.site.site.name
+    &&
+    <meta property="og:site_name" content={config.site.site.name} />
+    }
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@igem_tokyotech" />
+    <meta name="twitter:creator" content="@igem_tokyotech" />
 </head>
 
