@@ -1,13 +1,8 @@
-import {
-  createContext,
-  useState,
-  type Dispatch,
-  useContext,
-  useEffect,
-} from "react";
+import { createContext, useState, useContext, useEffect } from "react";
+import type { Dispatch } from "react";
 import { useMobile } from "../utils/useScreenWidth";
-import routeConfig from "../../config/route.json";
-import siteConfig from "../../config/site.json";
+import { config } from "../utils/config";
+import styles from "../styles/Header.module.css";
 
 /**
  * `/config/route.json`の
@@ -66,7 +61,6 @@ const NavigationItemLI = ({
            * 一回のクリックでsetOpenが呼ばれるのは1回であるべき
            */
           e.stopPropagation();
-          console.log(e.target);
           navCtxVal.setOpen((o: number | undefined) => {
             if (o !== openId) {
               return openId;
@@ -96,14 +90,13 @@ const Navigation = () => {
      * toggle操作したいものが入っている要素を取得
      */
     const toggleContainer = document.querySelector(
-      ".toggle-container"
+      ".toggle-container",
     ) as HTMLElement | null;
     if (toggleContainer === null) {
       return;
     }
 
     const handleClickOutSide = (e: MouseEvent) => {
-      console.log(e.target);
       setOpen(undefined);
     };
 
@@ -114,10 +107,13 @@ const Navigation = () => {
     };
   }, []);
   return (
-    <nav>
-      <ul className={`toggle-container`}>
+    <nav className={styles.nav}>
+      {/**
+       * toggle-containerはtoggle操作したいものを取得するために使用
+       */}
+      <ul className={`toggle-container ${styles.nav__ul}`}>
         <NavigationToggleContext.Provider value={{ open, setOpen }}>
-          {routeConfig.map((navItem: NavigationItemInterface, i: number) => (
+          {config.route.map((navItem: NavigationItemInterface, i: number) => (
             <NavigationItemLI navItem={navItem} openId={i} key={i} />
           ))}
         </NavigationToggleContext.Provider>
@@ -143,7 +139,7 @@ const NavigationToggleContext = createContext<NavigationToggleContextInterface>(
   {
     open: undefined,
     setOpen: () => {},
-  }
+  },
 );
 
 const Hamburger = ({
@@ -165,18 +161,30 @@ const Hamburger = ({
 
 const Header = () => {
   const isMobile = useMobile();
+  /**
+   * モバイルサイズ時，ナビゲーション全体が開いているかどうか
+   *
+   * モバイルサイズからPCサイズに変わった際はundefinedになる
+   */
   const [mobileOpen, setMobileOpen] = useState<boolean | undefined>(undefined);
   useEffect(() => {
+    /**
+     * モバイルサイズからPCサイズに変わった際にundefinedにする処理
+     */
     if (!isMobile) {
       setMobileOpen(undefined);
     }
-    console.log("changed");
   }, [isMobile]);
   return (
-    <header>
+    <header className={styles.header}>
+      <div className={styles.logo}>
+        <a href="/">
+          <img src={config.site.site.logo} className={styles.logo__img} />
+        </a>
+      </div>
       {isMobile ? (
         <>
-          {mobileOpen && (
+          {mobileOpen && ( // モバイルサイズ時でナビゲーション全体が表示される
             <div>
               <Navigation />
             </div>

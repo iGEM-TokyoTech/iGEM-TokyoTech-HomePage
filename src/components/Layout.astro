@@ -1,13 +1,30 @@
 ---
-import Head from "./Head.astro"
-import Header from "./Header"
+import Head from "./Head.astro";
+import Header from "./Header";
+import Footer from "./Footer";
+import type { Props as HeadProps } from "./Head.astro";
+
+export interface Props extends HeadProps {
+  lang?: string;
+}
+
+const { lang = "ja", title, author, description } = Astro.props;
 ---
-<html lang="ja">
-    <Head />
-    <body>
-        <Header client:only/>
-        <article>
-            <slot /> <!-- ここにコンテンツが挿入されます -->
-        </article>
-    </body>
+
+<style>
+  body {
+    min-height: 100%;
+    min-width: 300px;
+    overflow-wrap: break-word;
+    padding: 0;
+  }
+</style>
+<html lang={lang}>
+  <Head title={title} author={author} description={description} />
+  <body>
+    <Header client:only />
+    <slot />
+    <!-- ここにコンテンツが挿入されます -->
+    <Footer />
+  </body>
 </html>

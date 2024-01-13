@@ -1,0 +1,56 @@
+.header {
+  /*
+    Headerの高さは64pxで固定
+  */
+  height: 64px;
+  display: flex;
+  /*
+    ロゴ，ナビゲーションの順に左から横並び
+  */
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.logo__img {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.nav {
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    position: fixed;
+  }
+}
+
+.nav__ul {
+  display: grid;
+  /*
+    ナビゲーション内での親routeは横並び
+  */
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .nav__ul {
+    grid-auto-flow: row;
+  }
+}
+
+/* ====================================================
+
+
+
+===================================================== */
+.header {
+  background-color: white;
+}
