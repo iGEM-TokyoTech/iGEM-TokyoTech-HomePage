@@ -53,7 +53,7 @@ const NavigationItemLI = ({
    */
   const navCtxVal = useContext(NavigationToggleContext);
   return (
-    <li>
+    <li className={styles.nav_item}>
       <a
         href={navItem.href !== null ? navItem.href : undefined}
         onClick={(e) => {
@@ -69,11 +69,14 @@ const NavigationItemLI = ({
             }
           });
         }}
+        className={styles.nav_item__a}
       >
         {navItem.label}
       </a>
       {navItem.sub_items && (
-        <ul>
+        <ul
+          className={`${styles.sub_items__ul} ${navCtxVal.open === openId ? styles.open : undefined}`}
+        >
           {navItem.sub_items.map((subItem: NavigationSubItemInterface, i) => (
             <NavigationSubItemLI subItem={subItem} key={i} />
           ))}
@@ -149,8 +152,9 @@ const Hamburger = ({
 }) => {
   return (
     <button
-      style={{ height: "20px", width: "20px", backgroundColor: "black" }}
+      style={{ backgroundColor: "black" }}
       onClick={onClick}
+      className={styles.hamburger}
     >
       <span />
       <span />
@@ -185,7 +189,7 @@ const Header = () => {
       {isMobile ? (
         <>
           {mobileOpen && ( // モバイルサイズ時でナビゲーション全体が表示される
-            <div>
+            <div className={styles.mobile_nav__wrapper}>
               <Navigation />
             </div>
           )}

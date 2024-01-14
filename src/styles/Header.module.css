@@ -10,6 +10,11 @@
   flex-direction: row;
   align-items: center;
 }
+@media screen and (max-width: 600px) {
+  .header {
+    justify-content: space-between;
+  }
+}
 
 .logo {
   height: 60px;
@@ -22,12 +27,37 @@
   width: 100%;
 }
 
+@media screen and (max-width: 600px) {
+  .mobile_nav__wrapper {
+    /*
+      モバイルサイズのときはナビゲーションをラップする
+      divに配置系のスタイルを持たせる．
+    */
+    position: fixed;
+    top: 70px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5px;
+    height: 25px;
+    width: 30px;
+  }
+  .hamburger span {
+    width: 20px;
+    height: 2px;
+  }
+}
+
 .nav {
 }
 
 @media screen and (max-width: 600px) {
   .nav {
-    position: fixed;
   }
 }
 
@@ -37,6 +67,11 @@
     ナビゲーション内での親routeは横並び
   */
   grid-auto-flow: column;
+  /*
+    ナビゲーションアイテムひとつあたりの幅を設定しない代わりにgapを設定
+    →幅を設定しないことで小さいアイテムがクリックしにくくなるのをgapを設定して多少はしやすいようにする
+  */
+  gap: 15px;
   align-items: center;
 }
 
@@ -46,6 +81,19 @@
   }
 }
 
+.sub_items__ul {
+  position: absolute;
+}
+@media screen and (max-width: 600px) {
+  .sub_items__ul {
+    position: relative;
+  }
+}
+
+.nav_item__a {
+  display: block;
+}
+
 /* ====================================================
 
 
@@ -53,4 +101,53 @@
 ===================================================== */
 .header {
   background-color: white;
+}
+
+.nav_item {
+  list-style: none;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .nav_item {
+    /*
+      モバイルのときはなビゲーションアイテムは左寄せが良い
+    */
+    text-align: left;
+  }
+}
+
+.nav_item__a {
+  /*
+    デフォルトでアンカータグについている見た目をリセット
+  */
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav_item__a:hover {
+  background-color: rgba(212, 212, 212, 0.7);
+}
+
+.sub_items__ul {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .sub_items__ul {
+    display: block;
+  }
+}
+
+.sub_items__ul.open {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .hamburger {
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .hamburger span {
+    background-color: azure;
+  }
 }
