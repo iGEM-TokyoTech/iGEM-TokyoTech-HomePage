@@ -3,7 +3,7 @@ title: iGEM TokyoTech Internship 2024のお知らせ
 date: 2024-01-23
 author: Tsubasa
 ---
-今年もiGEM TokyoTechでは、合成生物学を用いた社会課題の解決というiGEMの一連の流れを体験してもらうために
+今年もiGEM TokyoTechでは、中高生に合成生物学を用いた社会課題の解決というiGEMの一連の流れを体験していただくために3月16・17日に
 **iGEM TokyoTech Internship**を開催します！
 <br><br>
 [**参加フォームはこちら**](https://docs.google.com/forms/d/e/1FAIpQLScShKgcrTQ-pA3HHiYGbwB-rv_XVWOGopGTsfa8cr33EwuBMQ/viewform?usp=sf_link)
@@ -49,7 +49,7 @@ iGEM Tokyo Techでは、生物学、とりわけ合成生物学を社会に広�
 <br><br>
 時間割（予定）
 
-**Day 1 **
+Day 1
 
 12:00-13:00 企画の説明、チーム分け、レクリエーション 
 
@@ -61,7 +61,7 @@ iGEM Tokyo Techでは、生物学、とりわけ合成生物学を社会に広�
 
 17:00-18:00 中間報告 
 <br><br>
-**Day 2 **
+Day 2
 
 12:00-14:00 【iGEM ハッカソン③】ディスカッション、資料作成 
 
@@ -71,4 +71,6 @@ iGEM Tokyo Techでは、生物学、とりわけ合成生物学を社会に広�
 
 17:00-18:00 全体講評、大学生と高校生の交流(座談会)
 <br><br>
+皆様のご参加心よりお待ちしています。
+
 [**参加フォームはこちら**](https://docs.google.com/forms/d/e/1FAIpQLScShKgcrTQ-pA3HHiYGbwB-rv_XVWOGopGTsfa8cr33EwuBMQ/viewform?usp=sf_link)
