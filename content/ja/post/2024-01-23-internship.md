@@ -5,6 +5,7 @@ author: Tsubasa
 ---
 今年もiGEM TokyoTechでは、中高生に合成生物学を用いた社会課題の解決というiGEMの一連の流れを体験していただくために3月16・17日に
 **iGEM TokyoTech Internship**を開催します！
+<!--more-->
 <br><br>
 [**参加フォームはこちら**](https://docs.google.com/forms/d/e/1FAIpQLScShKgcrTQ-pA3HHiYGbwB-rv_XVWOGopGTsfa8cr33EwuBMQ/viewform?usp=sf_link)
 <br><br>
