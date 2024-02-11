@@ -70,6 +70,7 @@ iGEM Tokyo Techが主催するこのインターンシップは、生物学や�
 
 17:00-18:00 全体講評、大学生と高校生の交流(座談会)
 <br><br>
+{{< figure src="/img/post/231210_1.png" title="" caption="昨年度の様子" width="500px" caption-position="bottom" caption-effect="fade">}}
 皆様のご参加心よりお待ちしています。
 
 [**参加フォームはこちら**](https://docs.google.com/forms/d/e/1FAIpQLScShKgcrTQ-pA3HHiYGbwB-rv_XVWOGopGTsfa8cr33EwuBMQ/viewform?usp=sf_link)
