@@ -30,9 +30,11 @@ iGEM Tokyo Techは、合成生物学の国際大会[iGEM](https://igem.org/)に�
 
 定員：最大9名 
 
+企画協力：BIOMOD Team Tokyotech
+
 iGEM Tokyo Techが主催するこのインターンシップは、生物学や科学技術の社会実装に興味があり、学ぶ意欲
 のある中高生を対象に、2日間にわたりiGEMに向けた活動の紹介や交流会を行うものです。
-
+<br>
 メインアクティビティは以下の2つです 
 <br><br>
 #### ① iGEM ワークショップ： 
@@ -70,7 +72,8 @@ iGEM Tokyo Techが主催するこのインターンシップは、生物学や�
 
 17:00-18:00 全体講評、大学生と高校生の交流(座談会)
 <br><br>
-{{< figure src="/img/post/240123.png" title="" caption="昨年度の様子" width="500px" caption-position="bottom" caption-effect="fade">}}
+{{< figure src="/img/post/240123.jpg" title="昨年度の様子" caption="" width="500px" caption-position="bottom" caption-effect="fade">}}
+<br>
 皆様のご参加心よりお待ちしています。
 
 [**参加フォームはこちら**](https://docs.google.com/forms/d/e/1FAIpQLScShKgcrTQ-pA3HHiYGbwB-rv_XVWOGopGTsfa8cr33EwuBMQ/viewform?usp=sf_link)
