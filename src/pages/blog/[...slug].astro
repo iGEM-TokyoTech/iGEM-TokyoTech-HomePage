@@ -21,11 +21,6 @@ const { entry } = Astro.props;
 const { Content } = await entry.render();
 ---
 
-<style>
-  article {
-    padding: 0rem 2rem;
-  }
-</style>
 <script>
   const figures = document.getElementsByTagName("figure");
 
@@ -56,6 +51,7 @@ const { Content } = await entry.render();
 </script>
 <style>
   article {
+    padding: 0rem 2rem;
     width: 100%;
     max-width: 616px;
     margin: auto;

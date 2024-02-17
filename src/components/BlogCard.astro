@@ -1,0 +1,30 @@
+---
+export interface Props {
+  slug?: string;
+  title?: string;
+  author?: string;
+  date?: Date;
+}
+
+const {
+  slug = undefined,
+  title = undefined,
+  author = undefined,
+  date = undefined,
+} = Astro.props;
+---
+
+<div>
+  <a href={"/blog/" + slug}>
+    <h3>{title}</h3>
+  </a>
+  <div>
+    <span>
+      🗓<i>{date?.toLocaleDateString()}</i>
+    </span>
+    <span>|</span>
+    <span>
+      ✒️<i>{author}</i>
+    </span>
+  </div>
+</div>

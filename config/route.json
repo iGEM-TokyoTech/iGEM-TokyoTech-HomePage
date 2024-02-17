@@ -50,24 +50,6 @@
     ]
   },
   {
-    "label": "Partners",
-    "href": null,
-    "sub_items": [
-      {
-        "label": "Sponsors",
-        "href": "/sponsors"
-      },
-      {
-        "label": "Alumni",
-        "href": "/alumni"
-      },
-      {
-        "label": "Partner with Us",
-        "href": "/partner-with-us"
-      }
-    ]
-  },
-  {
     "label": "Contact",
     "href": "/contact"
   }

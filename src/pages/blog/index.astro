@@ -1,9 +1,18 @@
 ---
 import Layout from "../../components/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
+import BlogCard from "../../components/BlogCard.astro";
 const posts = await getCollection("blog");
 ---
 
+<style>
+  ul {
+    padding: 0rem 2rem;
+    width: 100%;
+    max-width: 616px;
+    margin: auto;
+  }
+</style>
 <Layout>
   <h1>All Posts</h1>
   <ul>
@@ -22,16 +31,12 @@ const posts = await getCollection("blog");
           (p) =>
             p.data?.ignore !== true && (
               <li>
-                <a href={"/blog/" + p.slug}>{p.data.title}</a>
-                <div>
-                  <span>
-                    🗓<i>{p.data.date.toLocaleDateString()}</i>
-                  </span>
-                  <span>|</span>
-                  <span>
-                    ✒️<i>{p.data.author}</i>
-                  </span>
-                </div>
+                <BlogCard
+                  slug={p.slug}
+                  title={p.data.title}
+                  author={p.data.author}
+                  date={p.data.date}
+                />
               </li>
             ),
         )
