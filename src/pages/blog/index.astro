@@ -1,4 +1,40 @@
 ---
 import Layout from "../../components/Layout.astro";
+import { getCollection, getEntry } from "astro:content";
+const posts = await getCollection("blog");
 ---
-<Layout></Layout>
+
+<Layout>
+  <h1>All Posts</h1>
+  <ul>
+    {
+      posts
+        .sort((a, b) => {
+          if (a.data.date < b.data.date) {
+            return 1;
+          } else if (a.data.date > b.data.date) {
+            return -1;
+          } else {
+            return 0;
+          }
+        })
+        .map(
+          (p) =>
+            p.data?.ignore !== true && (
+              <li>
+                <a href={"/blog/" + p.slug}>{p.data.title}</a>
+                <div>
+                  <span>
+                    🗓<i>{p.data.date.toLocaleDateString()}</i>
+                  </span>
+                  <span>|</span>
+                  <span>
+                    ✒️<i>{p.data.author}</i>
+                  </span>
+                </div>
+              </li>
+            ),
+        )
+    }
+  </ul>
+</Layout>

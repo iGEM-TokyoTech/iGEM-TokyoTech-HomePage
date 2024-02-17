@@ -1,0 +1,70 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../components/Layout.astro";
+import BlogGlobalCSS from "../../components/BlogGlobalCSS.astro";
+import { Picture } from "astro:assets";
+// 1. コレクションエントリーごとに新しいパスを生成
+export async function getStaticPaths() {
+  const blogEntries = await getCollection("blog");
+  return blogEntries.map((entry) => {
+    if (entry.data.ignore !== true) {
+      // ignoreがfalseでない場合(undefinedなども)
+      return {
+        params: { slug: entry.slug },
+        props: { entry },
+      };
+    }
+  });
+}
+// 2. テンプレートでは、プロパティからエントリーを直接取得できる
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<style>
+  article {
+    padding: 0rem 2rem;
+  }
+</style>
+<script>
+  const figures = document.getElementsByTagName("figure");
+
+  const genImg = (figure: HTMLElement) => {
+    const src = figure.getAttribute("src") || "";
+    figure.removeAttribute("src");
+
+    const alt = figure.getAttribute("alt") || "";
+    figure.removeAttribute("alt");
+
+    const caption = figure.getAttribute("caption") || "";
+    figure.removeAttribute("caption");
+
+    const img = document.createElement("img");
+    img.src = src;
+    img.alt = alt;
+
+    const figCaption = document.createElement("figcaption");
+    figCaption.textContent = caption;
+
+    figure.appendChild(img);
+    figure.appendChild(figCaption);
+  };
+
+  for (const figure of figures) {
+    genImg(figure);
+  }
+</script>
+<style>
+  article {
+    width: 100%;
+    max-width: 616px;
+    margin: auto;
+  }
+</style>
+<BlogGlobalCSS />
+<Layout>
+  <article class="blog-content">
+    <h1>{entry.data.title}</h1>
+    <Content />
+  </article>
+</Layout>

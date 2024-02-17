@@ -33,8 +33,8 @@ const NavigationSubItemLI = ({
   subItem: NavigationSubItemInterface;
 }) => {
   return (
-    <li>
-      <a href={subItem.href}>
+    <li className={styles.sub_item}>
+      <a href={subItem.href} className={styles.sub_item__a}>
         <span>{subItem.label}</span>
       </a>
     </li>
@@ -52,6 +52,7 @@ const NavigationItemLI = ({
    * `navCtxVal.open === openId` で 開いている
    */
   const navCtxVal = useContext(NavigationToggleContext);
+  const isMobile = useMobile();
   return (
     <li className={styles.nav_item}>
       <a
@@ -75,7 +76,7 @@ const NavigationItemLI = ({
       </a>
       {navItem.sub_items && (
         <ul
-          className={`${styles.sub_items__ul} ${navCtxVal.open === openId ? styles.open : undefined}`}
+          className={`${styles.sub_items__ul} ${navCtxVal.open === openId ? styles.open : undefined} ${isMobile ? "" : styles.sub_items__card}`}
         >
           {navItem.sub_items.map((subItem: NavigationSubItemInterface, i) => (
             <NavigationSubItemLI subItem={subItem} key={i} />
@@ -110,7 +111,10 @@ const Navigation = () => {
     };
   }, []);
   return (
-    <nav className={styles.nav}>
+    /**
+     * ナビゲーション要素を取るためのid
+     */
+    <nav className={styles.nav} id="site-navigation">
       {/**
        * toggle-containerはtoggle操作したいものを取得するために使用
        */}
@@ -151,11 +155,7 @@ const Hamburger = ({
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }) => {
   return (
-    <button
-      style={{ backgroundColor: "black" }}
-      onClick={onClick}
-      className={styles.hamburger}
-    >
+    <button onClick={onClick} className={styles.hamburger}>
       <span />
       <span />
       <span />
@@ -176,33 +176,73 @@ const Header = () => {
      * モバイルサイズからPCサイズに変わった際にundefinedにする処理
      */
     if (!isMobile) {
+      console.log("set mobileOpen undefined");
       setMobileOpen(undefined);
     }
   }, [isMobile]);
+
+  useEffect(() => {
+    /**
+     * モバイルサイズでnavを開いた際に背景がスクロールできなくなるようにする
+     */
+    if (isMobile && mobileOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+  }, [isMobile, mobileOpen]);
+
+  useEffect(() => {
+    const handleClickMobileNav = (e: MouseEvent) => {
+      const nav = document.getElementById("site-navigation");
+      if (nav === null) {
+        return;
+      }
+      if (isMobile && !nav.contains(e.target as Node) && mobileOpen) {
+        setMobileOpen(false);
+      }
+    };
+    document.addEventListener("click", handleClickMobileNav);
+    return () => {
+      document.removeEventListener("click", handleClickMobileNav);
+    };
+  }, [isMobile, mobileOpen]);
+
   return (
-    <header className={styles.header}>
-      <div className={styles.logo}>
-        <a href="/">
-          <img src={config.site.site.logo} className={styles.logo__img} />
-        </a>
-      </div>
-      {isMobile ? (
-        <>
-          {mobileOpen && ( // モバイルサイズ時でナビゲーション全体が表示される
-            <div className={styles.mobile_nav__wrapper}>
-              <Navigation />
-            </div>
-          )}
+    <>
+      <header className={styles.header}>
+        <div className={styles.logo}>
+          <a href="/">
+            <img src={config.site.site.logo} className={styles.logo__img} />
+          </a>
+        </div>
+        {isMobile ? (
           <Hamburger
-            onClick={() => {
-              setMobileOpen((prev) => !prev);
+            onClick={(e) => {
+              /**
+               * navの外をクリックする判定になるため
+               */
+              e.stopPropagation();
+              setMobileOpen((prev) => !(prev === true));
             }}
           />
+        ) : (
+          <Navigation />
+        )}
+      </header>
+      {isMobile && (
+        <>
+          {mobileOpen && ( // モバイルサイズ時でナビゲーション全体が表示される
+            <>
+              <div className={styles.mobile_nav__wrapper}>
+                <Navigation />
+              </div>
+              <div className={styles.mobile_nav__background} />
+            </>
+          )}
         </>
-      ) : (
-        <Navigation />
       )}
-    </header>
+    </>
   );
 };
 

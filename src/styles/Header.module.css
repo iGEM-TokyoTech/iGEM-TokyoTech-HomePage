@@ -3,12 +3,22 @@
     Headerの高さは64pxで固定
   */
   height: 64px;
+  width: 100%;
   display: flex;
   /*
     ロゴ，ナビゲーションの順に左から横並び
   */
   flex-direction: row;
   align-items: center;
+
+  position: fixed;
+  top: 0;
+
+  padding: 0 0.5rem;
+  /*
+    これがないとMarkdownのレンダリング
+  */
+  z-index: 1;
 }
 @media screen and (max-width: 600px) {
   .header {
@@ -34,7 +44,20 @@
       divに配置系のスタイルを持たせる．
     */
     position: fixed;
-    top: 70px;
+    height: 100%;
+    width: 300px;
+    /*
+      headerの高さ
+    */
+    margin-top: 64px;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+
+    /*
+      これがないとMarkdownのレンダリング
+    */
+    z-index: 1;
   }
 }
 @media screen and (max-width: 600px) {
@@ -44,7 +67,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 3px 5px;
-    height: 25px;
+    height: 22px;
     width: 30px;
   }
   .hamburger span {
@@ -58,6 +81,8 @@
 
 @media screen and (max-width: 600px) {
   .nav {
+    max-height: calc(100vh - 64px);
+    overflow-y: scroll;
   }
 }
 
@@ -71,13 +96,14 @@
     ナビゲーションアイテムひとつあたりの幅を設定しない代わりにgapを設定
     →幅を設定しないことで小さいアイテムがクリックしにくくなるのをgapを設定して多少はしやすいようにする
   */
-  gap: 15px;
+  gap: 5px;
   align-items: center;
 }
 
 @media screen and (max-width: 600px) {
   .nav__ul {
     grid-auto-flow: row;
+    gap: 0;
   }
 }
 
@@ -90,8 +116,13 @@
   }
 }
 
-.nav_item__a {
+.nav_item__a,
+.sub_item__a {
   display: block;
+  padding-inline-start: 12px;
+  padding-inline-end: 12px;
+  height: 48px;
+  line-height: 48px;
 }
 
 /* ====================================================
@@ -101,11 +132,24 @@
 ===================================================== */
 .header {
   background-color: white;
+  border-bottom: solid rgba(99, 99, 99, 0.3) 0.02rem;
+}
+
+.nav {
+  background-color: white;
+}
+@media screen and (max-width: 600px) {
+  .mobile_nav__wrapper {
+    background-color: white;
+    border-right: solid 0.02rem rgba(123, 123, 123, 0.23);
+  }
 }
 
 .nav_item {
   list-style: none;
   text-align: center;
+  font-size: 1rem;
+  font-weight: 100;
 }
 @media screen and (max-width: 600px) {
   .nav_item {
@@ -116,7 +160,8 @@
   }
 }
 
-.nav_item__a {
+.nav_item__a,
+.sub_item__a {
   /*
     デフォルトでアンカータグについている見た目をリセット
   */
@@ -125,21 +170,34 @@
   cursor: pointer;
 }
 
-.nav_item__a:hover {
+.nav_item__a:hover,
+.sub_item__a:hover {
   background-color: rgba(212, 212, 212, 0.7);
 }
 
 .sub_items__ul {
   display: none;
+  background-color: white;
 }
+
 @media screen and (max-width: 600px) {
   .sub_items__ul {
     display: block;
+    padding-left: 1.5rem;
   }
 }
 
 .sub_items__ul.open {
   display: block;
+}
+
+.sub_item {
+  border-radius: 0.2rem;
+  list-style: none;
+}
+
+.sub_item:hover {
+  background-color: rgba(212, 212, 212, 0.7);
 }
 
 @media screen and (max-width: 600px) {
@@ -148,6 +206,24 @@
     cursor: pointer;
   }
   .hamburger span {
-    background-color: azure;
+    background-color: rgb(160, 160, 160);
   }
+}
+
+.mobile_nav__background {
+  background: rgba(0, 0, 0, 0.4);
+  bottom: 0;
+  inset-inline-end: 0;
+  position: fixed;
+  top: 0;
+  transition:
+    opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    width 3s cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  z-index: 0;
+}
+
+.sub_items__card {
+  border-radius: 10px; /* カードの角丸 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影の設定 */
 }

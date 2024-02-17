@@ -1,7 +1,18 @@
 ---
 import Layout from "../components/Layout.astro";
+import { config } from "../utils/config";
 ---
 
+<style>
+  .twitter__card {
+    max-width: 500px;
+    max-height: 70vh;
+    overflow-y: scroll;
+    margin: auto;
+    border: 0.01rem solid black;
+    border-radius: 1rem;
+  }
+</style>
 <Layout>
   <h1>ようこそ!</h1>
   <p>
@@ -9,4 +20,14 @@ import Layout from "../components/Layout.astro";
     Techは、合成生物学の世界大会iGEMに出場する東京工業大学のチームです。
   </p>
   <p>2023年のWikiは、<a href="https://2023.igem.wiki/tokyotech">こちら</a></p>
+  <div>
+    <div class="twitter__card">
+      <a
+        class="twitter-timeline"
+        href={"https://twitter.com/" +
+          config.site.brand.twitter +
+          "?ref_src=twsrc%5Etfw"}>Tweets by {config.site.brand.twitter}</a
+      >
+    </div>
+  </div>
 </Layout>

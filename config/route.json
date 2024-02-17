@@ -4,35 +4,39 @@
     "href": "/"
   },
   {
-    "label": "The Projects",
+    "label": "About us",
     "href": null,
     "sub_items": [
       {
-        "label": "Current Project",
-        "href": "/current-project"
+        "label": "What is iGEM?",
+        "href": "/what-is-igem"
       },
       {
-        "label": "All Projects",
-        "href": "/all-projects"
+        "label": "Our Vision",
+        "href": "/our-vision"
+      },
+      {
+        "label": "Our Team",
+        "href": "/our-team"
+      },
+      {
+        "label": "Join Us",
+        "href": "/join-us"
       }
     ]
   },
   {
-    "label": "The Teams",
+    "label": "Projects",
     "href": null,
     "sub_items": [
       {
-        "label": "Join iGEM",
-        "href": "/join-igem"
-      },
-      {
-        "label": "Current Team",
-        "href": "/current-team"
+        "label": "Wikis and Descriptions",
+        "href": "/wikis-and-descriptions"
       }
     ]
   },
   {
-    "label": "Events",
+    "label": "Posts",
     "href": null,
     "sub_items": [
       {
@@ -40,17 +44,31 @@
         "href": "/blog"
       },
       {
-        "label": "Twitter(X)",
-        "href": "/twitter"
-      },
-      {
-        "label": "events",
-        "href": "/events"
+        "label": "News",
+        "href": "/news"
       }
     ]
   },
   {
-    "label": "About iGEM",
-    "href": "/about-igem"
+    "label": "Partners",
+    "href": null,
+    "sub_items": [
+      {
+        "label": "Sponsors",
+        "href": "/sponsors"
+      },
+      {
+        "label": "Alumni",
+        "href": "/alumni"
+      },
+      {
+        "label": "Partner with Us",
+        "href": "/partner-with-us"
+      }
+    ]
+  },
+  {
+    "label": "Contact",
+    "href": "/contact"
   }
 ]

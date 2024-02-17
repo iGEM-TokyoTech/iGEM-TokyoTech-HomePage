@@ -3,6 +3,8 @@ import Head from "./Head.astro";
 import Header from "./Header";
 import Footer from "./Footer";
 import type { Props as HeadProps } from "./Head.astro";
+import "katex/dist/katex.min.css";
+import "ress/dist/ress.min.css";
 
 export interface Props extends HeadProps {
   lang?: string;
@@ -13,18 +15,27 @@ const { lang = "ja", title, author, description } = Astro.props;
 
 <style>
   body {
-    min-height: 100%;
+    min-height: 100vh;
     min-width: 300px;
     overflow-wrap: break-word;
     padding: 0;
+    display: flex;
+    flex-flow: column;
+  }
+
+  main {
+    margin-top: 60px;
+    flex: 1 0 auto;
+    padding: 0.2rem 1.5rem 0rem 1.5rem;
   }
 </style>
 <html lang={lang}>
   <Head title={title} author={author} description={description} />
   <body>
     <Header client:only />
-    <slot />
-    <!-- ここにコンテンツが挿入されます -->
+    <main>
+      <slot />
+    </main>
     <Footer />
   </body>
 </html>

@@ -1,0 +1,133 @@
+---
+
+---
+
+<!-- ブログのmarkdownのスタイル global にしないと適用されない -->
+<style is:global>
+  .blog-content .base {
+    max-width: 100%;
+    vertical-align: top;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+  }
+  .blog-content .base::-webkit-scrollbar {
+    display: none;
+  }
+
+  .blog-content .katex-display {
+    overflow-x: scroll;
+  }
+
+  .blog-content figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-content img {
+    display: block;
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .blog-content figcaption {
+  }
+
+  /* Reset styles */
+  .blog-content body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Container for Markdown content */
+  .blog-content .markdown-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Responsive images */
+  .blog-content img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Responsive tables */
+  .blog-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  .blog-content th,
+  .blog-content td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  .blog-content th {
+    background-color: #f2f2f2;
+  }
+
+  /* Headings */
+  .blog-content h1,
+  .blog-content h2,
+  .blog-content h3,
+  .blog-content h4,
+  .blog-content h5,
+  .blog-content h6 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  /* Links */
+  .blog-content a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .blog-content a:hover {
+    text-decoration: underline;
+  }
+
+  /* Lists */
+  .blog-content ul,
+  .blog-content ol {
+    padding-left: 20px;
+  }
+
+  /* Code blocks */
+  .blog-content pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+
+  .blog-content code {
+    font-family: Consolas, Monaco, monospace;
+  }
+
+  /* Blockquotes */
+  .blog-content blockquote {
+    margin: 0;
+    padding-left: 20px;
+    border-left: 5px solid #007bff;
+    color: #777;
+  }
+
+  /* Horizontal rule */
+  .blog-content hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+  }
+
+  /* Responsive video */
+  .blog-content iframe {
+    max-width: 100%;
+  }
+</style>
