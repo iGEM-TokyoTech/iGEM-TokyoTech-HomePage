@@ -54,7 +54,7 @@ const NavigationItemLI = ({
   const navCtxVal = useContext(NavigationToggleContext);
   const isMobile = useMobile();
   return (
-    <li className={styles.nav_item}>
+    <li className={`${styles.nav_item} ${isMobile ? "" : styles.align}`}>
       <a
         href={navItem.href !== null ? navItem.href : undefined}
         onClick={(e) => {

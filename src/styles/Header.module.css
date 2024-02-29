@@ -151,6 +151,7 @@
   font-size: 1rem;
   font-weight: 100;
 }
+
 @media screen and (max-width: 600px) {
   .nav_item {
     /*
@@ -171,19 +172,21 @@
 }
 
 .nav_item__a:hover,
-.sub_item__a:hover {
+.sub_item__a:hover .sub_item {
   background-color: rgba(212, 212, 212, 0.7);
 }
 
 .sub_items__ul {
   display: none;
   background-color: white;
+  min-width: 6rem;
 }
 
 @media screen and (max-width: 600px) {
   .sub_items__ul {
     display: block;
     padding-left: 1.5rem;
+    min-width: none;
   }
 }
 

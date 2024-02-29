@@ -11,6 +11,14 @@ const posts = await getCollection("blog");
     width: 100%;
     max-width: 616px;
     margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 2つの列を等しい幅で設定 */
+    grid-gap: 10px; /* 要素間の間隔を設定 */
+  }
+
+  li {
+    list-style: none;
   }
 </style>
 <Layout>
