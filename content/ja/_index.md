@@ -14,7 +14,7 @@ iGEM Tokyo Techは、合成生物学の世界大会iGEMに出場する東京工�
 
 ->[クラウドファンディングのリンク](https://readyfor.jp/projects/igem-tokyotech)
 
-新歓について
+## 新歓について
 東工大にご入学される皆様、おめでとうございます！iGEM Tokyo Techでは、ともに合成生物学の世界大会"iGEM"に出場する仲間を募集しています。詳しくは、下記のページからご確認ください。
 
 [iGEM TokyoTechの新歓日程について](https://www.igemtokyotech.org/post/2024-03-27-recruit/)
