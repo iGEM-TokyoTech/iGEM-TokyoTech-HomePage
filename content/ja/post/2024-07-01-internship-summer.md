@@ -3,7 +3,7 @@ title: iGEM TokyoTech Internship 2024 summerのお知らせ
 date: 2024-07-01
 author: Tsubasa
 ---
-今年もiGEM TokyoTechでは、中高生・新大学1年生に合成生物学を用いた社会課題の解決というiGEMの一連の流れを体験していただくために3月16・17日に
+今年もiGEM TokyoTechでは、中高生・新大学1年生に合成生物学を用いた社会課題の解決というiGEMの一連の流れを体験していただくために8月7・8日に
 **iGEM TokyoTech Internship**を開催します！
 <!--more-->
 <br><br>
