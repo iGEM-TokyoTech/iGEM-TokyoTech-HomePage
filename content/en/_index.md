@@ -1,1 +1,1 @@
-## This is iGEM TokyoTech's home page!
+## This is iGEM Sceince Tokyo's home page!
