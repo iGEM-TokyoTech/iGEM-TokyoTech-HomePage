@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="ja" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<link  rel="stylesheet" href="http://localhost:1313/css/modify.css" />
+<link  rel="stylesheet" href="http://localhost:1313/css/bootstrap-utilities.min.css" />
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Modeling補助ライブラリの紹介とAdvent Calendar 2022のクロージング - iGEM TokyoTech</title>
+  
+    
+    <meta name="description" content="この投稿は，iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022の25日目です．
+はじめに メリークリスマス，私，tax_freeはいろいろあって沖縄に来てます．
+今日は高校生の時">
+  
+  <meta name="author" content="iGEM TokyoTech"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "iGEM TokyoTech",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/post\/2022-12-25-advent-calendar\/",
+          "name": "Modeling補助ライブラリの紹介と advent calendar 2022のクロージング"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "tax_free"
+  },
+  "headline": "Modeling補助ライブラリの紹介とAdvent Calendar 2022のクロージング",
+  "description" : "この投稿は，iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022の25日目です．\nはじめに メリークリスマス，私，tax_freeはいろいろあって沖縄に来てます．\n今日は高校生の時によく行ってたトンカツを食べに行きました．なつかしいね．\n今日でiGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022も最後の投稿になります．\n",
+  "inLanguage" : "ja",
+  "wordCount":  3088 ,
+  "datePublished" : "2022-12-25T00:00:00",
+  "dateModified" : "2022-12-25T00:00:00",
+  "image" : "http:\/\/localhost:1313\/img\/old-it2-logo-trp.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/post\/2022-12-25-advent-calendar\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/img\/old-it2-logo-trp.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Modeling補助ライブラリの紹介とAdvent Calendar 2022のクロージング" />
+
+    
+    <meta name="og:description" content="この投稿は，iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022の25日目です．
+はじめに メリークリスマス，私，tax_freeはいろいろあって沖縄に来てます．
+今日は高校生の時">
+  
+<meta property="og:image" content="http://localhost:1313/img/old-it2-logo-trp.png" />
+<meta property="og:url" content="http://localhost:1313/post/2022-12-25-advent-calendar/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="iGEM TokyoTech" />
+
+  <meta name="twitter:title" content="Modeling補助ライブラリの紹介とAdvent Calendar 2022のクロージング" />
+  <meta name="twitter:description" content="この投稿は，iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022の25日目です．
+はじめに
+メリークリスマス，私，tax_freeはいろいろあって沖縄に来てます．
+今日は高校生の時によく行ってたトンカツを食べに行きました．なつかしいね．
+今日でiGEM･Synthetic biology(合成生物学)･Japan Advent …">
+  <meta name="twitter:image" content="http://localhost:1313/img/old-it2-logo-trp.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@igem_tokyotech" />
+  <meta name="twitter:creator" content="@igem_tokyotech" />
+  <link href='http://localhost:1313/img/it2-favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.123.0">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="iGEM TokyoTech"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+          <span class="sr-only">メニューを切り替え</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://localhost:1313/">iGEM TokyoTech</a>
+      </div>
+  
+      <div class="collapse navbar-collapse" id="main-navbar">
+        <ul class="nav navbar-nav navbar-right nav-modifier">
+          
+            
+              <li>
+                <a title="about" href="/about">about</a>
+              </li>
+            
+          
+            
+              <li>
+                <a title="Blog" href="/post">Blog</a>
+              </li>
+            
+          
+            
+              <li>
+                <a title="Contact" href="/contact">Contact</a>
+              </li>
+            
+          
+            
+              <li>
+                <a title="Project" href="/projects">Project</a>
+              </li>
+            
+          
+  
+          
+            
+              <li>
+                
+                  
+                    <a href="http://localhost:1313//en" lang="en" >en</a>
+                  
+                
+                  
+                
+              </li>
+            
+          
+  
+          
+        </ul>
+      </div>
+  
+      
+        <div class="avatar-container">
+          <div class="avatar-img-border">
+            <a title="iGEM TokyoTech" href="http://localhost:1313/">
+              <img class="avatar-img" src="http://localhost:1313/img/old-it2-logo-trp.png" alt="iGEM TokyoTech" />
+            </a>
+          </div>
+        </div>
+      
+  
+    </div>
+  </nav>
+  
+  
+  
+  
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Modeling補助ライブラリの紹介とAdvent Calendar 2022のクロージング</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+    
+    
+    <i class="fas fa-calendar"></i>&nbsp;December 25, 2022に投稿
+    
+    
+    
+    
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;tax_free
+    
+    
+    
+  </span>
+  
+  
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>この投稿は，<a href="https://adventar.org/calendars/7510">iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022</a>の25日目です．</p>
+<h1 id="はじめに">はじめに</h1>
+<p>メリークリスマス，私，tax_freeはいろいろあって沖縄に来てます．</p>
+<p>今日は高校生の時によく行ってたトンカツを食べに行きました．なつかしいね．</p>
+<p>今日でiGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022も最後の投稿になります．</p>
+<p><a href="https://note.com/downer_angel/n/n11e2da3fd9b5">24日の投稿</a>のクオリティが高かったのでプレッシャーが&hellip;</p>
+<h1 id="突然ですがモデリングしてますか">突然ですが，モデリングしてますか?</h1>
+<p>2022のTokyoTechは，Dryだけでデング熱の血清型ごとの感染者割合を予測するシステムを作っていたので，Wetの系に関するモデリングはしていませんでした．
+が，他のiGEMチームを見てみると，みんなWetと協力して生成物の構造予測や量の予測をしています．</p>
+<p>そして，モデリングはGold要件です．</p>
+<h1 id="現状のモデリングについて">現状のモデリングについて</h1>
+<p>十分な数を見ているわけではないですが，ほとんどのチームが一般のODEソルバーを使うか，特別なライブラリを使うのではなく普通にPythonとかを使っていると思います．
+数は少ないですが，<a href="https://2022.igem.wiki/iiser-pune2-india/struct-predictions">AlphaFoldを使ってるチーム</a>もありました．</p>
+<p>これらで実装することの問題点として，Dryの人しか実装できなかったり，他のメンバーと結果の共有がしずらいということがあります．
+この記事では，これらの課題を少しでも解決するために，Python向けのモデリング補助ライブラリについて<del>解説</del>説明します．</p>
+<h1 id="使うライブラリと具体的な問題例">使うライブラリと具体的な問題例</h1>
+<p>実行環境は，Colaboratoryです．<a href="https://github.com/taxfree-python/IWBDA_demo">ソースコードはこれ</a>．</p>
+<p>今回使うライブラリはBioCRNpyler(CRNはChemicalReactionNetworkの略)で，SBMLシミュレータにBioscrapeを使います．
+参考にしたページは下にまとめておきます．</p>
+<p>BioCRNpylerの構造は次のようになっています．</p>
+
+<link rel="stylesheet" href="http://localhost:1313/css/hugo-easy-gallery.css" />
+<div class="box fancy-figure caption-position-bottom caption-effect-fade d-flex justify-content-center m-auto" style="max-width:300px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/post/221225_01.png" alt="BioCRNpylerのArchitecturet"/>
+    </div>
+    <a href="/img/post/221225_01.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>BioCRNpylerのArchitecturet</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>なので，モデルを実装するときは，次に手順に従って実装することになります．</p>
+<ol>
+<li>Mixtureに追加されるComponentとMechanismをインスタンス化します．BioCRNpylerには，酵素や触媒作用，遺伝子制御ネットワークなどのComponentやMechanismがライブラリとして用意されています．なお、Componentは，カスタムしたMechanismsを持つことも，MixtureのMechanismsを利用することも可能です．</li>
+<li>Mixtureを作成しましょう．ComponentやMechanismがあらかじめ組み込まれた様々なMixtureがありますし，空のMixtureを使用することもできます．</li>
+<li>パラメータは，dictかパラメータファイルでMixture(もしくは個別のComponent)に追加することができます．パラメータの初期化をすることで，非常に少ないパラメータでモデルをコンパイルすることができ，後から精度を上げるために微調整することができます．</li>
+<li>CRNにMixtureをコンパイルする．</li>
+<li>コンパイルしたCRNはSBMLとして保存，プロット，シミュレートすることができます．</li>
+</ol>
+<p>次のセクションで簡単なサンプルを実装します．</p>
+<h1 id="実装方法とできること">実装方法とできること</h1>
+<p>今回の記事では，簡単なサンプルとして下の図のような反応のモデリングを考えます．</p>
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-fade d-flex justify-content-center m-auto" style="max-width:300px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/post/221225_02.png" alt="サンプルの図"/>
+    </div>
+    <a href="/img/post/221225_02.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>サンプルの図</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>これをBioCRNpylerで実装します．必要なライブラリは，既に定義しているとします．<a href="https://github.com/taxfree-python/IWBDA_demo">ソースコード</a>を参考にしてください．</p>
+<p>まずは，それぞれの文字を定義します．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="c1">#M1とM2は代謝物を表すSpeciesである</span>
+</span></span><span class="line"><span class="cl"><span class="n">M1</span> <span class="o">=</span> <span class="n">Species</span><span class="p">(</span><span class="s2">&#34;M1&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">M2</span> <span class="o">=</span> <span class="n">Species</span><span class="p">(</span><span class="s2">&#34;M2&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">G</span> <span class="o">=</span> <span class="n">Species</span><span class="p">(</span><span class="s2">&#34;G&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">T</span> <span class="o">=</span> <span class="n">Species</span><span class="p">(</span><span class="s2">&#34;T&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">E</span> <span class="o">=</span> <span class="n">Species</span><span class="p">(</span><span class="s2">&#34;E&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><p>次にそれぞれの反応の速度定数を設定します．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="c1">#質量作用の法則が働くReactionで反応速度定数は1.0</span>
+</span></span><span class="line"><span class="cl"><span class="n">r_tx</span> <span class="o">=</span> <span class="n">Reaction</span><span class="o">.</span><span class="n">from_massaction</span><span class="p">([</span><span class="n">G</span><span class="p">],</span> <span class="p">[</span><span class="n">G</span><span class="p">,</span> <span class="n">T</span><span class="p">],</span> <span class="n">k_forward</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">r_tl</span> <span class="o">=</span> <span class="n">Reaction</span><span class="o">.</span><span class="n">from_massaction</span><span class="p">([</span><span class="n">T</span><span class="p">],</span> <span class="p">[</span><span class="n">T</span><span class="p">,</span> <span class="n">E</span><span class="p">],</span> <span class="n">k_forward</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">r_cat</span> <span class="o">=</span> <span class="n">Reaction</span><span class="o">.</span><span class="n">from_massaction</span><span class="p">([</span><span class="n">M1</span><span class="p">,</span> <span class="n">E</span><span class="p">],</span> <span class="p">[</span><span class="n">M2</span><span class="p">,</span> <span class="n">E</span><span class="p">],</span> <span class="n">k_forward</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">)</span>
+</span></span></code></pre></div><p>最後にこれらの反応を繋げます．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="c1">#CRNに保存</span>
+</span></span><span class="line"><span class="cl"><span class="n">CRN</span> <span class="o">=</span> <span class="n">ChemicalReactionNetwork</span><span class="p">(</span><span class="n">species</span> <span class="o">=</span> <span class="p">[</span><span class="n">M1</span><span class="p">,</span> <span class="n">M2</span><span class="p">,</span> <span class="n">G</span><span class="p">,</span> <span class="n">T</span><span class="p">,</span> <span class="n">E</span><span class="p">],</span> <span class="n">reactions</span> <span class="o">=</span> <span class="p">[</span><span class="n">r_tx</span><span class="p">,</span> <span class="n">r_tl</span><span class="p">,</span> <span class="n">r_cat</span><span class="p">])</span>
+</span></span></code></pre></div><p>次に，このCRNによりComponentとMechanismを加えます．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="c1">#ComponentとSpeciesを作る</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#酵素を作る</span>
+</span></span><span class="line"><span class="cl"><span class="n">E</span> <span class="o">=</span> <span class="n">Enzyme</span><span class="p">(</span><span class="n">enzyme</span> <span class="o">=</span> <span class="s1">&#39;E&#39;</span><span class="p">,</span> <span class="n">substrates</span> <span class="o">=</span> <span class="p">[</span><span class="n">M1</span><span class="p">],</span> <span class="n">products</span> <span class="o">=</span> <span class="p">[</span><span class="n">M2</span><span class="p">])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#DNAアセンブリは転写-翻訳のユニット</span>
+</span></span><span class="line"><span class="cl"><span class="n">G</span> <span class="o">=</span> <span class="n">DNAassembly</span><span class="p">(</span><span class="s1">&#39;G&#39;</span><span class="p">,</span> <span class="n">protein</span>  <span class="o">=</span> <span class="n">E</span><span class="o">.</span><span class="n">get_species</span><span class="p">(),</span> <span class="n">promoter</span> <span class="o">=</span> <span class="s1">&#39;P&#39;</span><span class="p">,</span> <span class="n">rbs</span> <span class="o">=</span> <span class="s1">&#39;RBS&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#いくつかのMechanismを追加する</span>
+</span></span><span class="line"><span class="cl"><span class="n">catalysis</span> <span class="o">=</span> <span class="n">BasicCatalysis</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">transcription</span> <span class="o">=</span> <span class="n">SimpleTranscription</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">translation</span> <span class="o">=</span> <span class="n">SimpleTranslation</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#パラメータはdictで定義できて，ここではデフォルトの値を使います</span>
+</span></span><span class="line"><span class="cl"><span class="n">parameters</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;kcat&#39;</span> <span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;ktx&#39;</span> <span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s1">&#39;ktl&#39;</span> <span class="p">:</span> <span class="mf">1.0</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#初期状態の作成(TはGによるのでGとM1だけ与える)</span>
+</span></span><span class="line"><span class="cl"><span class="n">initial_concentrations</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">G</span><span class="o">.</span><span class="n">dna</span> <span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">M1</span> <span class="p">:</span> <span class="mf">10.0</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>そして，これらを使ってMixtureを作成します．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="c1">#Mixtureを作成する</span>
+</span></span><span class="line"><span class="cl"><span class="n">M</span> <span class="o">=</span> <span class="n">Mixture</span><span class="p">(</span><span class="n">mechanisms</span> <span class="o">=</span> <span class="p">[</span><span class="n">catalysis</span><span class="p">,</span> <span class="n">transcription</span><span class="p">,</span> <span class="n">translation</span><span class="p">],</span> <span class="n">components</span> <span class="o">=</span> <span class="p">[</span><span class="n">G</span><span class="p">,</span> <span class="n">E</span><span class="p">],</span> <span class="n">parameters</span> <span class="o">=</span> <span class="n">parameters</span><span class="p">)</span>
+</span></span></code></pre></div><p>さて，Mixtureを作成したので，コンパイルしてみましょう．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="n">CRN_compiled</span> <span class="o">=</span> <span class="n">M</span><span class="o">.</span><span class="n">compile_crn</span><span class="p">(</span><span class="n">initial_concentration_dict</span> <span class="o">=</span> <span class="n">initial_concentrations</span><span class="p">)</span>
+</span></span></code></pre></div><p>作成したCRN_compiledの時間発展を，Bioscrapeを使ってプロットしてみましょう．横軸を時間，縦軸を濃度として考えます．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="c1">#Bioscrapeを使ったCRNのシミュレーションとプロット</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">timepoints</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">results</span> <span class="o">=</span> <span class="n">CRN_compiled</span><span class="o">.</span><span class="n">simulate_with_bioscrape_via_sbml</span><span class="p">(</span><span class="n">timepoints</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">timepoints</span><span class="p">,</span> <span class="n">results</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">dna</span><span class="p">)],</span> <span class="n">label</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">dna</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">timepoints</span><span class="p">,</span> <span class="n">results</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">transcript</span><span class="p">)],</span> <span class="n">label</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">transcript</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">timepoints</span><span class="p">,</span> <span class="n">results</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">protein</span><span class="p">)],</span> <span class="n">label</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">protein</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">timepoints</span><span class="p">,</span> <span class="n">results</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">M1</span><span class="p">)],</span> <span class="n">label</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">M1</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">timepoints</span><span class="p">,</span> <span class="n">results</span><span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">M2</span><span class="p">)],</span> <span class="n">label</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">M2</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl"><span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+</span></span></code></pre></div><p>こういう結果が出ると思います．</p>
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-fade d-flex justify-content-center m-auto" style="max-width:300px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/post/221225_03.png" alt="サンプルの時間発展"/>
+    </div>
+    <a href="/img/post/221225_03.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>サンプルの時間発展</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>結果について軽く考察すると，最初に示した反応経路から，Gの濃度は一定，Tの濃度は線型，Eの濃度はTの濃度に線型なので放物線になります．
+なので，図の左側は合ってそうだな，と分かります．また，右側についてもM_1とM_2が対象で，感覚的に指数関数っぽい立ち上がりになりそうです．
+なので，左も右も合ってそうですね．</p>
+<p>最後に，このCRNをグラフにして可視化してみましょう．グラフの表示にはBokehを使います．</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Python" data-lang="Python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">bokeh.plotting</span> <span class="kn">import</span> <span class="n">figure</span><span class="p">,</span> <span class="n">show</span><span class="p">,</span> <span class="n">output_notebook</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plot</span> <span class="o">=</span> <span class="n">render_network_bokeh</span><span class="p">(</span><span class="n">CRN</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                            <span class="n">use_pretty_print</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                            <span class="n">pp_show_rates</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                            <span class="n">pp_show_attributes</span> <span class="o">=</span> <span class="kc">False</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                            <span class="n">pp_show_material</span> <span class="o">=</span> <span class="kc">True</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="n">output_notebook</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="n">show</span><span class="p">(</span><span class="n">plot</span><span class="p">)</span>
+</span></span></code></pre></div><p>こんな図が表示されると思います．ノードがそれぞれのSpeciesに対応して，エッジの向きが反応の向きに対応しています．</p>
+
+
+<div class="box fancy-figure caption-position-bottom caption-effect-fade d-flex justify-content-center m-auto" style="max-width:300px">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/img/post/221225_04.png" alt="サンプルCRNのグラフ"/>
+    </div>
+    <a href="/img/post/221225_04.png" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>サンプルCRNのグラフ</p>
+      </figcaption>
+  </figure>
+</div>
+
+<p>下の方にあるオブジェクトは消す方法が分からんかった&hellip;公式サンプルにも載ってるので気にしない，気にしない.</p>
+<h1 id="これから">これから</h1>
+<p>今回は非常に簡単なモデルだったので，BioCRNpylerがラップしてくれる嬉しさ，グラフにしてくれる嬉しさが十分に感じれないかもしれないですが，より複雑なモデルを扱う時には，きっと役にたつはずです．</p>
+<p>参考にしたサンプルには，この後にMichaelis–Menten equationに従うようなモデルを考えていましたが，コピペしてもエラーが出てくるので今回の記事には間に合いませんでした．Michaelis–Menten equationの次は，パラメータのAutoReduceをやってくれるサンプルなので，BioCRNpylerはモデルの最適化の方にも使えそうです．次の記事では，これを触ってみようかなぁ&hellip;</p>
+<h1 id="おわりに">おわりに</h1>
+<p>この記事を最後まで読んでくれた方，そしてiGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022を読んで書いてくれたiGEMerの方には，とても感謝しています．私がアドベントカレンダーをやりたいと言った時，正直ぜんぜん埋まらないんじゃないかと不安でした．でも，やってみると全部の枠が埋まった(1枠空いたけど)ので，とってもとっても嬉しいです．</p>
+<p>最後に，これからもiGEM Japan Community，iGEM TokyoTechのメンバーとして精進するので，応援よろしくおねがいします!</p>
+<p><strong>それでは，楽しいクリスマス，年末年始をお過ごしくださいな．</strong></p>
+<h1 id="参考にしたページ">参考にしたページ</h1>
+<ol>
+<li><a href="https://www.iwbdaconf.org/2022/program/">IWBDA</a></li>
+<li><a href="http://tiny.cc/iwbda-biocrnpyler">Colab</a></li>
+<li><a href="https://github.com/pyg-team/pytorch_geometric/issues/4378">グラフが表示されない</a></li>
+<li><a href="https://stackoverflow.com/questions/71983103/cannot-upgrade-library-to-specific-version-on-google-colab-scipy-version-1-8-0">ColabのScipyが古い</a></li>
+</ol>
+
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2022-12-25-advent-calendar%2f&amp;text=Modeling%e8%a3%9c%e5%8a%a9%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%81%ae%e7%b4%b9%e4%bb%8b%e3%81%a8Advent%20Calendar%202022%e3%81%ae%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0&amp;via=igem_tokyotech" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2f2022-12-25-advent-calendar%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2022-12-25-advent-calendar%2f&amp;title=Modeling%e8%a3%9c%e5%8a%a9%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%81%ae%e7%b4%b9%e4%bb%8b%e3%81%a8Advent%20Calendar%202022%e3%81%ae%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2022-12-25-advent-calendar%2f&amp;title=Modeling%e8%a3%9c%e5%8a%a9%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%81%ae%e7%b4%b9%e4%bb%8b%e3%81%a8Advent%20Calendar%202022%e3%81%ae%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2022-12-25-advent-calendar%2f&amp;title=Modeling%e8%a3%9c%e5%8a%a9%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%81%ae%e7%b4%b9%e4%bb%8b%e3%81%a8Advent%20Calendar%202022%e3%81%ae%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2022-12-25-advent-calendar%2f&amp;description=Modeling%e8%a3%9c%e5%8a%a9%e3%83%a9%e3%82%a4%e3%83%96%e3%83%a9%e3%83%aa%e3%81%ae%e7%b4%b9%e4%bb%8b%e3%81%a8Advent%20Calendar%202022%e3%81%ae%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://localhost:1313/post/2022-12-19-pr/" data-toggle="tooltip" data-placement="top" title="第28回起業創業コミュニティでiGEM TokyoTechサブリーダーがピッチをしました">&larr; 前ページ</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="http://localhost:1313/post/2022-12-26-wet-activity/" data-toggle="tooltip" data-placement="top" title="12/24,25 勉強会、wiki読み会">次ページ &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="https://twitter.com/igem_tokyotech" title="Twitter">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.instagram.com/igem_tokyotech" title="Instagram">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              iGEM TokyoTech
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">iGEM TokyoTech</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          起動力に<a href="https://gohugo.io">Hugo v0.123.0</a> &nbsp;&bull;&nbsp; テーマに<a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>に基づいている<a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

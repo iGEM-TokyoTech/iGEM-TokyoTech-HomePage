@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iGEM TokyoTech</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content on iGEM TokyoTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iGEM TokyoTech Internship 2024 summerのお知らせ</title>
+      <link>http://localhost:1313/post/2024-07-01-internship-summer/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024-07-01-internship-summer/</guid>
+      <description>&lt;p&gt;今年もiGEM TokyoTechでは、中高生・新大学1年生に合成生物学を用いた社会課題の解決というiGEMの一連の流れを体験していただくために8月7・8日に&#xA;&lt;strong&gt;iGEM TokyoTech Internship&lt;/strong&gt;を開催します！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4,5月の活動報告</title>
+      <link>http://localhost:1313/post/2024-06-07-report/</link>
+      <pubDate>Fri, 07 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024-06-07-report/</guid>
+      <description>&lt;p&gt;4,5月の月間報告を作成しました。ぜひご確認ください！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iGEM TokyoTechの新歓日程について</title>
+      <link>http://localhost:1313/post/2024-03-27-recruit/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024-03-27-recruit/</guid>
+      <description>iGEM Tokyo Techが行う4月中の新歓についてご連絡します！ 新歓は、①対面/オンラインの説明会②活動見学の2つの形式で開催します。①は、4月中のみ週一回程度のペースで、②は4月以降も随時受け付けています。東工大に新しく入学された方のみならず、 在学生や医科歯科大の学生も歓迎します！ ①説明会</description>
+    </item>
+    <item>
+      <title>iGEM TokyoTech Internship 2024のお知らせ</title>
+      <link>http://localhost:1313/post/2024-01-23-internship/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024-01-23-internship/</guid>
+      <description>&lt;p&gt;今年もiGEM TokyoTechでは、中高生・新大学1年生に合成生物学を用いた社会課題の解決というiGEMの一連の流れを体験していただくために3月16・17日に&#xA;&lt;strong&gt;iGEM TokyoTech Internship&lt;/strong&gt;を開催します！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iGEMのwikiのGitLabを分析してみた</title>
+      <link>http://localhost:1313/post/2023-12-21-advent-calendar/</link>
+      <pubDate>Thu, 21 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-12-21-advent-calendar/</guid>
+      <description>&lt;p&gt;この記事は、&lt;a href=&#34;https://adventar.org/calendars/8876&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2023&lt;/a&gt;の21日目の記事です。&lt;/p&gt;&#xA;&lt;p&gt;こんにちは．iGEM TokyoTech Dry所属のiChemyです．&#xA;静電気に怯える日々が始まり出していますが，みなさんはどうお過ごしですか?&#xA;本日の記事は「&lt;strong&gt;iGEMのwikiのGitLabを分析してみた&lt;/strong&gt;」&#xA;ということでニッチな内容となっておりますが，&#xA;気負わず軽い気持ちで読んでいただいて構いません．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ーーを埋め込んで</title>
+      <link>http://localhost:1313/post/2023-12-20-advent-calender/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-12-20-advent-calender/</guid>
+      <description>初めましてaketamiです。最後の部分以外は驚異的にiGEMに関係のない話を書きます。 自語壱 東京科学大学生命理工学系bachelor1 に所属しています。iGEMではDryを担当していて去年度は幻のsoftware(非公認未確認ほぼ非公開)をやっていました。 アイドリングトーク 皆さ</description>
+    </item>
+    <item>
+      <title>ありがとう、iGEM TokyoTech</title>
+      <link>http://localhost:1313/post/2023-12-19-advent-calendar/</link>
+      <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-12-19-advent-calendar/</guid>
+      <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;&#xA;&lt;p&gt;iGEM TokyoTech 2023リーダーを務めました脱法マリルリと申します。この度は12月19日のiGEM Advent Calenderをご覧頂きありがとうございます。また、このAdvent Calenderを作成してくれたtax_freeにも重ねて感謝申し上げます。本日のAdvent Calenderでは、僕がiGEM TokyoTechとして活動してきた3年間を振り返りながらiGEM TokyoTechで学んだことを適当に書こうと思います。残念ながら殆ど自分語りになってしまいますが、この年になって自分がやってきたことや考えてきたことをドキュメンテーションすることは自分の将来を考えるうえでやっておいた方がいい事であると気づいたので、自分語りをします。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>覚悟</title>
+      <link>http://localhost:1313/post/2023-12-15-advent-calender/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-12-15-advent-calender/</guid>
+      <description>&lt;p&gt;この記事は、&lt;a href=&#34;https://adventar.org/calendars/8876&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2023&lt;/a&gt;の15日目の記事です。&lt;/p&gt;&#xA;&lt;p&gt;こんにちは、iGEM Tokyo TechのTsubasaです。&lt;br&gt;&#xA;アドベントカレンダーも半分を過ぎ、2023年も残り16日となりました。皆さんもこの一年に色々な思いをはせていることでしょう。皆さんの今年のハイライトは何でしょうか。旅行したことや、大学に合格したこと、新たな趣味に出会ったこと、恋人ができたことなど個人個人によって様々あると思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ロゴの話と振り返りを</title>
+      <link>http://localhost:1313/post/2023-12-10-advent-calender/</link>
+      <pubDate>Sun, 10 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-12-10-advent-calender/</guid>
+      <description>&lt;p&gt;この投稿は、&lt;a href=&#34;https://adventar.org/calendars/8876&#34;&gt;&lt;strong&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2023&lt;/strong&gt;&lt;/a&gt;の10日目です。&lt;/p&gt;&#xA;&lt;p&gt;みなさん、どうもこんにちは。iGEM TokyoTechのLeokenです。昨年度に引き続きAdvent calendarの一つを書くことになりました。どうやら去年の僕はジムを探すつもりだったらしいですね。全く探しませんでしたけどね。一応体力が必要という考えは変わっていないので、最近は気まぐれにランニングをしております。ひとまず導入はこんなものにして、本題に入っていきましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>合成生物学といったら「俺」</title>
+      <link>http://localhost:1313/post/2023-12-04-advent-calendar/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-12-04-advent-calendar/</guid>
+      <description>&lt;p&gt;どうも皆さん、一年ぶりですね。iGEM TokyoTechのばみやです。&lt;/p&gt;&#xA;&lt;p&gt;最近めっきり冷えてきましたね。私は寒暖差があまり得意ではないので鼻水が止まりません。なんなら布団からも出られず、ラボのコアタイムをまあまあ無視してしまっています(現在間に合った率3%未満)。皆様もご自愛くださいませ。&lt;/p&gt;&#xA;&lt;p&gt;時候の挨拶もほどほどに、本題に移りましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>総合型選抜の回想(情報理工学院)【tax_freeの場合】</title>
+      <link>http://localhost:1313/post/2023-02-11-recruit/</link>
+      <pubDate>Sat, 11 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-02-11-recruit/</guid>
+      <description>&lt;p&gt;こんにちは，Dryのtax_freeです．&lt;/p&gt;&#xA;&lt;p&gt;今日は東京工業大学 情報理工学院の総合型選抜の思い出を書きます．&lt;/p&gt;&#xA;&lt;p&gt;もう記憶が風化してしまったので，&lt;a href=&#34;https://taxfree-python.hatenablog.com/entry/2022/02/23/011229&#34;&gt;受験直後(1週間くらい)に書いた記事&lt;/a&gt;を見ながら書いてます．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>総合型選抜の回想(生命理工学院)【こう の場合】</title>
+      <link>http://localhost:1313/post/2023-02-09-recruit/</link>
+      <pubDate>Thu, 09 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-02-09-recruit/</guid>
+      <description>&lt;p&gt;こんにちは！iGEM Tokyo Techのこうです。私も総合型選抜で東工大に入学し、二次試験がもうすぐとのことで、リレーブログを引き継ぎました。よろしくお願いしますー！&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>総合型選抜の回想(工学院)【ばっさー の場合】</title>
+      <link>http://localhost:1313/post/2023-02-07-recruit/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-02-07-recruit/</guid>
+      <description>&lt;p&gt;皆さんこんにちは。リレーブログ2日目です。本日は、iGEM Tokyo Techのばっさーがお送りします。&lt;/p&gt;&#xA;&lt;p&gt;今日のテーマは昨日に引き続き「東工大総合型選抜の回想」です。&#xA;私は、iGEM Tokyo Techer唯一の工学院の学生です。入試方式は、工学院の「総合型」でまた「地方勢」なのでそのどちらかに属する人の助けになればと思っています。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>総合型選抜の回想(生命理工学院)【ばみや の場合】</title>
+      <link>http://localhost:1313/post/2023-02-06-recruit/</link>
+      <pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-02-06-recruit/</guid>
+      <description>&lt;p&gt;こんにちは、iGEM TokyoTechのばみやです。冷え込んでいた日々にも漸く終止符が見え始めてきましたね。この頃合になると、2年前の受験の記憶がぼんやり蘇ってきます。今回は、そんな記憶を頼りに弊学の&lt;strong&gt;総合型選抜&lt;/strong&gt;の受験記録について認めてゆきたいと思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>モデリング勉強会を行いました</title>
+      <link>http://localhost:1313/post/2023-01-08-report/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-01-08-report/</guid>
+      <description>こんにちは．iGEM TokyoTech Dryリーダーのtax_freeです．1月4日にサークル内でモデリング勉強会を行いました． モデリング勉強会は，DryだけではなくWetメンバーもモデリングに貢献できるようにすることを目標にしている勉強会です． 今回は記念すべき第一回ということで，理論生物学の基</description>
+    </item>
+    <item>
+      <title>12/24,25 勉強会、wiki読み会</title>
+      <link>http://localhost:1313/post/2022-12-26-wet-activity/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-26-wet-activity/</guid>
+      <description>&lt;h1 id=&#34;前書き&#34;&gt;前書き&lt;/h1&gt;&#xA;&lt;p&gt;冬の寒さが厳しくなってまいりましたが皆様いかがお過ごしでしょうか、wet班1年の鹿島です。私たちwet班は12/24および12/25にすずかけ台キャンパスに集まって勉強会、wiki読み会を開きました。「え？クリスマスにやるの？」と驚かれた方もいらっしゃるかもしれませんね(実際、私も友達にこのことを話したら大分驚いた様子を見せていました)。wetリーダーも私たちを気遣ってくれたのか「ほんとに来るの？」「自由参加だから予定がある人はそっちを優先してね」と言ってくれていたのですが、いざ24日になると&amp;hellip;なんとメンバー6人中5人が参加しました(1人は他のサークルの用事があったようです)。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Modeling補助ライブラリの紹介とAdvent Calendar 2022のクロージング</title>
+      <link>http://localhost:1313/post/2022-12-25-advent-calendar/</link>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-25-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の25日目です．&lt;/p&gt;&#xA;&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;&#xA;&lt;p&gt;メリークリスマス，私，tax_freeはいろいろあって沖縄に来てます．&lt;/p&gt;&#xA;&lt;p&gt;今日は高校生の時によく行ってたトンカツを食べに行きました．なつかしいね．&lt;/p&gt;&#xA;&lt;p&gt;今日でiGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022も最後の投稿になります．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第28回起業創業コミュニティでiGEM TokyoTechサブリーダーがピッチをしました</title>
+      <link>http://localhost:1313/post/2022-12-19-pr/</link>
+      <pubDate>Fri, 23 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-19-pr/</guid>
+      <description>&lt;p&gt;12月19日にToiToiToiで開催された第28回起業創業コミュニティにて，iGEM TokyoTechのサブリーダー知念が2023年度のプロジェクトについてピッチを行いました．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wetの話とPerúの話と</title>
+      <link>http://localhost:1313/post/2022-12-19-advent-calendar/</link>
+      <pubDate>Mon, 19 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-19-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の19日目です．&lt;/p&gt;&#xA;&lt;p&gt;こんにちは、iGEM TokyoTech のLeokenです。Advent Calendartの概念も知らなければ、blogも書いたことないような僕ですが、頑張って書き切っていきたいなと思います。&lt;/p&gt;&#xA;&lt;h2 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h2&gt;&#xA;&lt;p&gt;Leokenです。20歳です。iGEM2021は役職なしのB1として実験をする先輩を後ろから眺めていました。iGEM2022はWet 1/2としてない知恵と体力を絞りながらなんとか1年を生き延びました。そしてiGEM2023ではなんとWet リーダーになってしまいました。正気の沙汰ではありませんが、もう片方のWetがチームリーダーに着任してしまった以上、やるしかありません。気張っていく所存です。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>なんで私がiGEMに Hardware編</title>
+      <link>http://localhost:1313/post/2022-12-11-advent-calendar/</link>
+      <pubDate>Sun, 11 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-11-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の11日目です．&#xA;著(iChemy)はiGEMの世界に入ってまもない素人(Dry)です,ので暖かい目で気楽に流し読んでいただけると幸いです🎄ﾒﾘｸﾘ.&lt;/p&gt;&#xA;&lt;p&gt;本日は,そろそろiGEM TokyoTechが❄️秋新歓❄️を迎えるということで,&#xA;もしiGEMに興味を持たれている方でお近くのiGEMチームに入ろうか悩んでいる方がいたら,&#xA;そんな方々に私たちがどのような経緯iGEMに参加したのか,&#xA;そして2022の活動 (i.e.初めてのiGEM) はどのようなものであったかをお伝えすることで何か決意を後押しできればと思いこの記事を書いています.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ある男について</title>
+      <link>http://localhost:1313/post/2022-12-10-advent-calendar/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-10-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の10日目です．&lt;/p&gt;&#xA;&lt;h1 id=&#34;その男は&#34;&gt;その男は…&lt;/h1&gt;&#xA;&lt;p&gt;　iGEM TokyoTechのマリルリです。今回のｱﾄﾞﾍﾞﾝﾄｶﾚﾝﾀﾞｰでは、iGEM TokyoTech 2022 の活動を振り返りながら“ある男”について書きたいと思います。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>マジカルバナナ(読者参加型)</title>
+      <link>http://localhost:1313/post/2022-12-07-advent-calendar/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-07-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の7日目です．&lt;/p&gt;&#xA;&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;&#xA;&lt;p&gt;&lt;del&gt;&lt;em&gt;Merry Christmas!&lt;/em&gt;&lt;/del&gt;&lt;/p&gt;&#xA;&lt;p&gt;24時間ぶりですね。お元気でしょうか。iGEM TokyoTechのばみやです。元々クリスマスイブに投稿する予定でしたが、先日の交流会でじゃんけんに負けたので連日投稿する運びとなりました。少しだけスケジュールがしんどいです。少しだけね。&lt;/p&gt;&#xA;&lt;p&gt;先日の投稿をご覧になって頂いた方々はご存知かと思いますが、まあまあ陰鬱な投稿をしてしまいました。吐露せずにはいられなかったので後悔はないですが、まあまあお目汚しかなあと。ちょっとリカバリーしたいので、今日は明るく楽しい投稿をして、平均点での明るさを目指そうと思います(？)。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>人生舐め太郎が辛酸を嘗めた話</title>
+      <link>http://localhost:1313/post/2022-12-06-advent-calendar/</link>
+      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-06-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の6日目です．&lt;/p&gt;&#xA;&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;&#xA;&lt;p&gt;はじめまして。iGEM TokyoTech いろいろ担当のばみやです。昨年度はHuman Practice周りの担当をしておりました。&lt;/p&gt;&#xA;&lt;p&gt;参加チームも増え、新たにiGEMへと参戦する方々と対面で会うことも許されるようになってきた時世の潮流の中でiGEM Japan Communityの盛り上がりを肌で感じることが出来るようになってきました。大変喜ばしいことと思います。&#xA;しかし、新規参入するということは、それすなわちノウハウが不足しているというもの。これは結構な障壁でして、参入したいが不安で踏ん切りがつかない……という方もいることかと思います。かく言う我々も&lt;del&gt;最古参組なくせして&lt;/del&gt;ノウハウの不足している中、暗中模索といった風にプロジェクトを進めておりました。そこで、昨年度得た経験の中で、所謂後悔、反省点といったものの類をここに書き留めておこうと思い立ち、こうして筆を握るに至りました。経験やノウハウの差を埋めるには情報を共有するのが一番の近道ですし、何より明文化しておけば後々自分で嘗める用の肝をしても使えますし。&lt;/p&gt;&#xA;&lt;p&gt;この愚者が経験として痛感したことを、賢者の諸君は歴史として学び、再現することのないよう活用していただければ望外の喜びでございます。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iGEM TokyoTechのDryが2022にやったこと(Prediction編)</title>
+      <link>http://localhost:1313/post/2022-12-05-advent-calendar/</link>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-05-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の5日目です．&lt;/p&gt;&#xA;&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;&#xA;&lt;p&gt;こんばんは．iGEM TokyoTechの&lt;a href=&#34;https://twitter.com/taxfree_python&#34;&gt;tax_free&lt;/a&gt;です．この記事では，iGEM 2022でTokyoTechのDryがやったことを紹介します．&#xA;DryのなかでもWikiの実装については，11日担当のiChemyが担当してくれたので，この記事ではModelingのパートを扱います．&#xA;この記事は&lt;a href=&#34;https://2022.igem.wiki/tokyotech/model&#34;&gt;wiki&lt;/a&gt;を見ながら書いています．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>代替わりの折に振り返り</title>
+      <link>http://localhost:1313/post/2022-12-03-advent-calendar/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-03-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の3日目です．&lt;/p&gt;&#xA;&lt;p&gt;こんにちは、はじめまして。TokyoTechのenoです。2022は主にWet担当として活動をしていました。2023は少し後方からチームを見渡していく予定です。&#xA;TokyoTechの他に、東京工業大学管弦楽団に所属しており、楽しそうな団員を見てにこにこしているのが日課です。これは定位置が舞台の端であることも関係していそうですね。&lt;/p&gt;&#xA;&lt;p&gt;さて、「代替わりの折に振り返り」と銘打っている以上、何かを振り返らなくてはならないのですが、どうにも振り返って面白いものが思い浮かびませんでした。&#xA;iGEM2022 Grand Jamboreeの渡航でのエピソードをご紹介します。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022はっじまるよ~</title>
+      <link>http://localhost:1313/post/2022-12-01-advent-calendar/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-01-advent-calendar/</guid>
+      <description>&lt;p&gt;この投稿は，&lt;a href=&#34;https://adventar.org/calendars/7510&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2022&lt;/a&gt;の1日目です．&lt;/p&gt;&#xA;&lt;h1 id=&#34;はじめに&#34;&gt;はじめに&lt;/h1&gt;&#xA;&lt;p&gt;こんにちは．iGEM TokyoTech Dryの&lt;a href=&#34;https://twitter.com/taxfree_python&#34;&gt;tax_free&lt;/a&gt;です．&#xA;iGEM Japan Communityを盛り上げて，日本でもっとiGEMが広がってほしいという気持ちから，複数の日本チームでAdvent Calendarを書くことになりました．&lt;/p&gt;&#xA;&lt;p&gt;ぜひ楽しく書いて，読んで交流していただけたらと思っています．&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/2023-12-08-advent-calendar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-12-08-advent-calendar/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
