@@ -6,6 +6,6 @@ mail adress : igem.tokyotech.pr(at)gmail.com
 
 
 # Our SNS
-Twitter : [iGEM TokyoTech](https://twitter.com/igem_tokyotech)
+Twitter : [iGEM Science Tokyo](https://twitter.com/igem_tokyotech)
 
 Instagram : [igem_tokyotech](https://www.instagram.com/igem_tokyotech/)

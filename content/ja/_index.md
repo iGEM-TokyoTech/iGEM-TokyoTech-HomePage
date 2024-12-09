@@ -5,18 +5,18 @@
 
 <!-- そこで、皆様に寄付による支援をお願いしたく思います。寄付頂いたお金は、大会の参加費や研究のための実験費、大会に参加するための渡航費等に充てさせていただきます。使途の詳細は[こちら](https://www.igemtokyotech.org/finance/) -->
 
-iGEM Science Tokyoは、合成生物学の世界大会iGEMに出場する東京工業大学のチームです。
+iGEM Science Tokyoは、合成生物学の世界大会iGEMに出場する東京科学大学のチームです。
 
-2023年のWikiは、[こちら](https://2023.igem.wiki/tokyotech/)
+2024年のWikiは、[こちら](https://2024.igem.wiki/tokyotech/)
 
 
 ## 新歓について
-東工大にご入学される皆様、おめでとうございます！iGEM Tokyo Techでは、ともに合成生物学の世界大会"iGEM"に出場する仲間を募集しています。詳しくは、下記のページからご確認ください。
+科学大にご入学される皆様、おめでとうございます！iGEM Science Tokyoは、ともに合成生物学の世界大会"iGEM"に出場する仲間を募集しています。詳しくは、下記のページからご確認ください。
 
-[iGEM TokyoTechの新歓日程について](https://www.igemtokyotech.org/post/2024-03-27-recruit/)
+[iGEM Science Tokyoの新歓日程について](https://www.igemtokyotech.org/post/2024-03-27-recruit/)
 
 ---
 
-iGEM Tokyo Tech is the iGEM team of Tokyo Institute of Technology.
+iGEM Science Tokyo is the iGEM team of Tokyo Institute of Science.
 
-2023 Wiki is [here](https://2023.igem.wiki/tokyotech/)
+2024 Wiki is [here](https://2024.igem.wiki/tokyotech/)

@@ -1,6 +1,6 @@
 baseurl = "https://www.igemtokyotech.org"
 defaultContentLanguage = "ja"
-title = "iGEM TokyoTech"
+title = "iGEM Science Tokyo"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
