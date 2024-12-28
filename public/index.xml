@@ -44,11 +44,11 @@
       <description>&lt;p&gt;この記事は、&lt;a href=&#34;https://adventar.org/calendars/8876&#34;&gt;iGEM･Synthetic biology(合成生物学)･Japan Advent Calendar 2023&lt;/a&gt;の21日目の記事です。&lt;/p&gt;&#xA;&lt;p&gt;こんにちは．iGEM TokyoTech Dry所属のiChemyです．&#xA;静電気に怯える日々が始まり出していますが，みなさんはどうお過ごしですか?&#xA;本日の記事は「&lt;strong&gt;iGEMのwikiのGitLabを分析してみた&lt;/strong&gt;」&#xA;ということでニッチな内容となっておりますが，&#xA;気負わず軽い気持ちで読んでいただいて構いません．&lt;/p&gt;</description>
     </item>
     <item>
-      <title>ーーを埋め込んで</title>
+      <title>2023年adventカレンダー記事(aktm)</title>
       <link>http://localhost:1313/post/2023-12-20-advent-calender/</link>
       <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2023-12-20-advent-calender/</guid>
-      <description>初めましてaketamiです。最後の部分以外は驚異的にiGEMに関係のない話を書きます。 自語壱 東京科学大学生命理工学系bachelor1 に所属しています。iGEMではDryを担当していて去年度は幻のsoftware(非公認未確認ほぼ非公開)をやっていました。 アイドリングトーク 皆さ</description>
+      <description>こんにちは20日の担当のakrmです。 皆さんはChatGPTなどの大規模言語モデル（LLM）を使ったことがありますか？ 私はリリース当初からGPT系のツールをよく利用しています。もともと何でも自動化するのが好きで、時間を節約するためのシステムを作ることに夢中になってきました。もっと</description>
     </item>
     <item>
       <title>ありがとう、iGEM TokyoTech</title>
@@ -77,6 +77,20 @@
       <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2023-12-04-advent-calendar/</guid>
       <description>&lt;p&gt;どうも皆さん、一年ぶりですね。iGEM TokyoTechのばみやです。&lt;/p&gt;&#xA;&lt;p&gt;最近めっきり冷えてきましたね。私は寒暖差があまり得意ではないので鼻水が止まりません。なんなら布団からも出られず、ラボのコアタイムをまあまあ無視してしまっています(現在間に合った率3%未満)。皆様もご自愛くださいませ。&lt;/p&gt;&#xA;&lt;p&gt;時候の挨拶もほどほどに、本題に移りましょう。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>モデリング勉強会を行いました</title>
+      <link>http://localhost:1313/post/2023-03-07-report/</link>
+      <pubDate>Tue, 07 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-03-07-report/</guid>
+      <description>こんにちは．iGEM TokyoTech Dryリーダーのtax_freeです．3月5日にサークル内でモデリング勉強会を行いました． モデリング勉強会は，DryだけではなくWetメンバーもモデリングに貢献できるようにすることを目標にしている勉強会です． 今回は，変数の消去方法について勉強した後に，Col</description>
+    </item>
+    <item>
+      <title>モデリング勉強会を行いました</title>
+      <link>http://localhost:1313/post/2023-02-19-report/</link>
+      <pubDate>Mon, 20 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-02-19-report/</guid>
+      <description>こんにちは．iGEM TokyoTech Dryリーダーのtax_freeです．2月19日にサークル内でモデリング勉強会を行いました． モデリング勉強会は，DryだけではなくWetメンバーもモデリングに貢献できるようにすることを目標にしている勉強会です． 今回は，アトラクター，リミットサイクルに関する説</description>
     </item>
     <item>
       <title>総合型選抜の回想(情報理工学院)【tax_freeの場合】</title>
