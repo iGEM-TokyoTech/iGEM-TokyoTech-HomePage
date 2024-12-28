@@ -43,7 +43,6 @@ LLMとembeddingを組み合わせて、より正確な回答を得るには、�
 最近のアップデートでは、この一連のプロセスをWeb上で完結できる機能も登場しています。OpenAIの「Create a GPTs」では、参考文書としてPDFなどを登録しておけば、自動的にembeddingを行い、LLMが回答に活用してくれます。
 
 実際に2023年度のJudge Handbookを読み込ませて質問すると、その内容に即した回答が得られました。まだ「どのページを参照したのか」といった詳細には答えづらい部分もありますが、今後の改善が期待されるところです。
-{{< figure src="https://angry-vanadium-ceb.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F488ae9e4-91fb-44da-b02a-428688e6feaa%2F6cb0b1d5-114b-47ad-b248-f66756971178%2F%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%25B3%25E3%2582%25B7%25E3%2583%25A7%25E3%2583%2583%25E3%2583%2588_2023-12-19_19.06.41.png?table=block&id=56cf972d-f1a1-46f3-8041-8652db772ae2&spaceId=488ae9e4-91fb-44da-b02a-428688e6feaa&width=2000&userId=&cache=v2" title="" width="500px">}}
 
 ### embedding手法の課題とLLMの役割
 
